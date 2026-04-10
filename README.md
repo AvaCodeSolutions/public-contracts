@@ -41,4 +41,4 @@ All meaningful changes to a document are summarised directly at the bottom of th
 
 ## Questions
 
-If you have questions about any of our contracts, please contact us at **legal@inboxacademy.io**.
+If you have questions about any of our contracts, please contact us at **contact@avacodesolutions.com**.
