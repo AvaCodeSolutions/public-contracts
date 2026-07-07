@@ -1,4 +1,4 @@
-# AvaCode Solutions — Public Contracts
+# AvaCode Solutions: Public Contracts
 
 This repository contains the official public contracts for AvaCode Solutions products, including the Terms of Service and Privacy Policy documents. It is public to ensure full transparency with our users. Each version is tagged so that specific versions referenced in our products can always be retrieved.
 
@@ -9,6 +9,8 @@ This repository contains the official public contracts for AvaCode Solutions pro
 ### InboxAcademy
 
 📄 [Terms of Service for Learners](./inbox-academy/learners/terms.md)
+
+📄 [Terms of Service for Course Providers](./inbox-academy/providers/terms.md)
 
 📄 [Privacy Policy for all users](./inbox-academy/privacy-policy.md)
 
@@ -26,8 +28,8 @@ Each update to any document in this repository is tagged using the following nam
 - A minor version change is for typo fixes or other non-substantive edits that do not affect the contract.
 
 **Examples:**
-- `inbox-academy-learners-terms-v1.0` — Initial release of InboxAcademy contracts.
-- `inbox-academy-learners-terms-v2.0` — Major update to one or more InboxAcademy contracts.
+- `inbox-academy-learners-terms-v1.0`: Initial release of InboxAcademy contracts.
+- `inbox-academy-learners-terms-v2.0`: Major update to one or more InboxAcademy contracts.
 
 Tags allow any version ever referenced in our products to be retrieved at any time.
 
