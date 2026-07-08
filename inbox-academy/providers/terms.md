@@ -64,7 +64,7 @@ You are responsible for the actions of every Organization User acting under your
 
 The Platform is offered under several Subscription plans (currently Free and Professional), each with different feature sets and usage limits, as described on our pricing page. We may change plan features, limits, and pricing from time to time, with reasonable notice to existing Subscribers for changes that materially affect a paid plan.
 
-Paid Subscriptions are billed and managed through Stripe. New paid signups may be eligible for a free trial period of one (1) month, during which no payment method is required. If a trial is not converted to a paid Subscription before it ends, your Subscription shall automatically be paused rather than charged, and you shall lose access to features specific to the Professional plan until you subscribe. Usage beyond the limits included in your plan (such as additional Learners) may be billed as separate metered overage charges.
+Paid Subscriptions are billed and managed through Stripe. New paid signups may be eligible for a free trial period of fourteen (14) days, during which no payment method is required. If a trial is not converted to a paid Subscription before it ends, your Subscription shall automatically be paused rather than charged, and you shall lose access to features specific to the Professional plan until you subscribe. Usage beyond the limits included in your plan (such as additional Learners) may be billed as separate metered overage charges.
 
 You are responsible for keeping your billing information current and for all charges incurred under your Subscription. Except as set out in Section 14 (Service Credit & Refund Policy), fees are non-refundable.
 
@@ -239,5 +239,6 @@ If you have any questions about these Terms, please contact us:
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v2.0 (July 8, 2026) Reduced free trial period from one (1) month to fourteen (14) days
 - v1.1 (July 8, 2026) Spelling updated to American English (non-substantive)
 - v1.0 (July 7, 2026) Initial draft
