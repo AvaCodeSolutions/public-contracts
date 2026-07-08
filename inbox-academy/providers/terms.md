@@ -9,7 +9,7 @@
 
 ## 1. Acceptance of Terms
 
-These Course Provider Terms of Service ("Terms") govern your access to and use of InboxAcademy (the "Platform") as an organisation, creator, or team that creates and delivers courses through the Platform ("Course Provider", "Organisation", "you", or "your"). By registering an Organisation account, or by continuing to use the Platform on behalf of an Organisation, you agree to be bound by these Terms.
+These Course Provider Terms of Service ("Terms") govern your access to and use of InboxAcademy (the "Platform") as an organization, creator, or team that creates and delivers courses through the Platform ("Course Provider", "Organization", "you", or "your"). By registering an Organization account, or by continuing to use the Platform on behalf of an Organization, you agree to be bound by these Terms.
 
 If you are entering into these Terms on behalf of a company or other legal entity, you represent that you have the authority to bind that entity, in which case "you" refers to that entity.
 
@@ -22,11 +22,11 @@ These Terms apply to your use of the Platform as a Course Provider. They do not 
 ## 2. Definitions
 
 - **"Platform"** refers to InboxAcademy, the hosted service available at https://inboxacademy.io.
-- **"Organisation"** refers to the company, creator, or team account through which you access the Platform.
-- **"Organisation User"** refers to an individual member of your Organisation with an assigned role (Admin, Editor, Instructor, or Viewer).
+- **"Organization"** refers to the company, creator, or team account through which you access the Platform.
+- **"Organization User"** refers to an individual member of your Organization with an assigned role (Admin, Editor, Instructor, or Viewer).
 - **"Course"** refers to any set of lessons, quizzes, assignments, or other material you create and deliver through the Platform.
 - **"Learner"** refers to an individual enrolled in one of your Courses or subscribed to one of your newsletters.
-- **"Learner Data"** refers to any data relating to a Learner that you collect, receive, or generate through the Platform, including but not limited to email addresses, enrolment status, progress, quiz responses, and assignment submissions.
+- **"Learner Data"** refers to any data relating to a Learner that you collect, receive, or generate through the Platform, including but not limited to email addresses, enrollment status, progress, quiz responses, and assignment submissions.
 - **"Content"** refers to any course material, lesson, quiz, assignment, newsletter, or other material you create, upload, or deliver through the Platform.
 - **"Subscription"** refers to your selected billing plan for use of the Platform.
 - **"We", "Us", or "Our"** refers to AvaCode Solutions LLC-FZ.
@@ -35,7 +35,7 @@ These Terms apply to your use of the Platform as a Course Provider. They do not 
 
 ## 3. Description of Service
 
-InboxAcademy is a platform that enables Organisations to create and manage Courses and to deliver them to Learners by email. Depending on your Subscription plan, the Platform may also provide newsletter creation and delivery, learner and course analytics, AI-assisted content tools, an optional inbound mailbox integration for command-based enrolment, Google Workspace group enrolment, and programmatic API access.
+InboxAcademy is a platform that enables Organizations to create and manage Courses and to deliver them to Learners by email. Depending on your Subscription plan, the Platform may also provide newsletter creation and delivery, learner and course analytics, AI-assisted content tools, an optional inbound mailbox integration for command-based enrollment, Google Workspace group enrollment, and programmatic API access.
 
 We provide the technology that stores, schedules, and delivers your Content. We do not create, author, or take editorial responsibility for your Content, except as set out in Section 9 (Content Policy & Review Rights).
 
@@ -43,20 +43,20 @@ We provide the technology that stores, schedules, and delivers your Content. We 
 
 ## 4. Eligibility & Account Registration
 
-To register an Organisation, you must be able to form a legally binding contract. We do not currently require you to verify your identity or provide detailed information about your Organisation in order to create and use an account. Where you do provide account or profile information, you agree that it is accurate and kept up to date.
+To register an Organization, you must be able to form a legally binding contract. We do not currently require you to verify your identity or provide detailed information about your Organization in order to create and use an account. Where you do provide account or profile information, you agree that it is accurate and kept up to date.
 
-You must not create or operate an Organisation account by impersonating any other person or entity, or by misrepresenting your affiliation with any person or entity.
+You must not create or operate an Organization account by impersonating any other person or entity, or by misrepresenting your affiliation with any person or entity.
 
-You are responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your Organisation account.
+You are responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your Organization account.
 
-Organisation Users are assigned one of the following roles, and you are responsible for managing these assignments appropriately:
+Organization Users are assigned one of the following roles, and you are responsible for managing these assignments appropriately:
 
-- **Admin**: full control of the Organisation's account.
+- **Admin**: full control of the Organization's account.
 - **Editor**: manages Content.
 - **Instructor**: may be shown as the face of a Course.
 - **Viewer**: read-only access.
 
-You are responsible for the actions of every Organisation User acting under your account, and for ensuring that each Organisation User is authorised to act on your Organisation's behalf.
+You are responsible for the actions of every Organization User acting under your account, and for ensuring that each Organization User is authorized to act on your Organization's behalf.
 
 ---
 
@@ -74,7 +74,7 @@ You can view invoices, update payment details, and manage or cancel your Subscri
 
 ## 6. Your Content & Intellectual Property
 
-As between you and us, you retain all ownership rights in the Content you create and upload to the Platform. You grant us a limited, non-exclusive, worldwide licence to host, store, reproduce, transmit, and display your Content solely to the extent necessary to operate the Platform and provide the Service to you and your Learners.
+As between you and us, you retain all ownership rights in the Content you create and upload to the Platform. You grant us a limited, non-exclusive, worldwide license to host, store, reproduce, transmit, and display your Content solely to the extent necessary to operate the Platform and provide the Service to you and your Learners.
 
 You are solely responsible for your Content, including its accuracy, legality, and compliance with applicable laws and with the Content Policy in Section 9. You represent that you own or have the necessary rights to all Content you upload, and that your use of it does not infringe the rights of any third party.
 
@@ -82,9 +82,9 @@ You are solely responsible for your Content, including its accuracy, legality, a
 
 ## 7. Inbound Mailbox Integration (Optional)
 
-As an optional feature, you may connect an IMAP mailbox to allow our automated systems to monitor that mailbox and act on commands contained in incoming emails, for example enrolling a Learner in a Course in response to an email with the subject "enroll &lt;course_slug&gt;", as an alternative to the Learner completing the enrolment form on our website.
+As an optional feature, you may connect an IMAP mailbox to allow our automated systems to monitor that mailbox and act on commands contained in incoming emails, for example enrolling a Learner in a Course in response to an email with the subject "enroll &lt;course_slug&gt;", as an alternative to the Learner completing the enrollment form on our website.
 
-If you choose to use this feature, the mailbox you connect must be used solely for this purpose. You authorise us to read, process, and delete content in that mailbox in order to detect and act on supported commands. Your mailbox credentials are encrypted at rest, but you remain responsible for the security of the underlying mailbox account and for ensuring you have the right to grant us this access.
+If you choose to use this feature, the mailbox you connect must be used solely for this purpose. You authorize us to read, process, and delete content in that mailbox in order to detect and act on supported commands. Your mailbox credentials are encrypted at rest, but you remain responsible for the security of the underlying mailbox account and for ensuring you have the right to grant us this access.
 
 You are solely responsible for ensuring that your use of the Platform to send Course and newsletter emails complies with applicable anti-spam and electronic communications laws (such as CAN-SPAM, CASL, or equivalent regional legislation), including obtaining any consents required from recipients before enrolling or emailing them.
 
@@ -98,7 +98,7 @@ Learner Data made available to you through the Platform (in particular Learner e
 - Share, sell, rent, or otherwise disclose Learner Data to any third party, except to a service provider engaged by you and bound by confidentiality obligations at least as protective as this Section, or where required by law.
 - Combine or enrich Learner Data with data from other sources in a way that is inconsistent with the purpose for which the Learner was enrolled.
 
-You are responsible for having a lawful basis to collect, process, and enrol each Learner, and, where required by applicable law, for providing your Learners with appropriate notice of your own privacy practices.
+You are responsible for having a lawful basis to collect, process, and enroll each Learner, and, where required by applicable law, for providing your Learners with appropriate notice of your own privacy practices.
 
 These obligations survive the termination of your Subscription for as long as you retain any Learner Data obtained through the Platform.
 
@@ -116,7 +116,7 @@ To keep the Platform safe and lawful for Learners and other Course Providers, Co
 - Deceptive or misleading content presented as fact, including harmful health or medical misinformation.
 - Spam, or Content sent without a lawful basis or the recipient's appropriate consent.
 - Content that infringes the intellectual property, privacy, or other legal rights of any third party.
-- Impersonation of any person or organisation, or misrepresentation of your affiliation with any person or organisation.
+- Impersonation of any person or organization, or misrepresentation of your affiliation with any person or organization.
 
 This list is illustrative, not exhaustive, and we may update it from time to time to address emerging risks, consistent with Section 20.
 
@@ -128,10 +128,10 @@ If we determine, in our reasonable judgment, that Content violates this Content 
 
 ## 10. Our Data Obligations to You
 
-We shall not sell your Organisation's data, your Content, or your Learner Data, and shall not share it with any third party except:
+We shall not sell your Organization's data, your Content, or your Learner Data, and shall not share it with any third party except:
 
 - Where necessary to operate the Platform, using the subprocessors listed in Section 11, each bound by appropriate confidentiality and data protection obligations;
-- Where you have separately instructed or authorised us to do so; or
+- Where you have separately instructed or authorized us to do so; or
 - Where required by law, court order, or a valid request from a competent authority.
 
 We shall not use your Content or Learner Data for any purpose other than providing, maintaining, and improving the Platform's core service to you, and shall not use it to train third-party AI models beyond what is described in Section 12. Further detail on how we handle personal data is set out in our [Privacy Policy](../privacy-policy.md), which forms part of these Terms.
@@ -144,7 +144,7 @@ We rely on the following third-party services to operate the Platform:
 
 - **Stripe**: payment processing and subscription billing.
 - **OpenAI**: powers AI-assisted content and quiz-generation features.
-- **Google**: OAuth for account sign-in and for Google Workspace group-based bulk enrolment.
+- **Google**: OAuth for account sign-in and for Google Workspace group-based bulk enrollment.
 - **LinkedIn**: OAuth for account sign-in.
 - **Google Cloud Platform**: hosting and infrastructure.
 - **Amazon Web Services (AWS SES)**: sending of outbound Course and newsletter emails.
@@ -186,7 +186,7 @@ This Section states your sole and exclusive remedy, and our entire liability, fo
 
 We may suspend or terminate your access to the Platform, in whole or in part, if you materially breach these Terms (including the Content Policy in Section 9), fail to pay applicable fees, or use the Platform in a way that we reasonably believe creates legal or security risk to us, our Learners, or other users. Where reasonably possible, we shall provide notice and an opportunity to resolve the issue before suspending or terminating your account for a first-time, non-severe violation.
 
-You may cancel your Subscription at any time via the [Stripe customer portal](https://billing.stripe.com/p/login/6oU28scRQ3M76z35ZMcjS00), or close your Organisation account by contacting our support team at support@inboxacademy.io. Upon termination, your right to access the Platform ends, and we may delete or anonymise your Content and Learner Data after a reasonable retention period, in accordance with our Privacy Policy, unless a longer retention period is required by law.
+You may cancel your Subscription at any time via the [Stripe customer portal](https://billing.stripe.com/p/login/6oU28scRQ3M76z35ZMcjS00), or close your Organization account by contacting our support team at support@inboxacademy.io. Upon termination, your right to access the Platform ends, and we may delete or anonymize your Content and Learner Data after a reasonable retention period, in accordance with our Privacy Policy, unless a longer retention period is required by law.
 
 ---
 
@@ -239,4 +239,5 @@ If you have any questions about these Terms, please contact us:
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v1.1 (July 8, 2026) Spelling updated to American English (non-substantive)
 - v1.0 (July 7, 2026) Initial draft
