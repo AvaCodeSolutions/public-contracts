@@ -18,7 +18,7 @@ These Terms constitute a legally binding agreement between you and AvaCode Solut
 ## 2. Definitions
 
 - **"Platform"** refers to InboxAcademy, the hosted learning service available at https://inboxacademy.io.
-- **"Course Provider"** refers to the organisation or individual who created the course content you receive.
+- **"Course Provider"** refers to the organization or individual who created the course content you receive.
 - **"Learner"** refers to you — an individual enrolled in a course who receives course content via email.
 - **"Content"** refers to any course material, lessons, quizzes, certificates, or other information delivered to you through the Platform.
 - **"We", "Us", or "Our"** refers to AvaCode Solutions LLC-FZ.
@@ -27,7 +27,7 @@ These Terms constitute a legally binding agreement between you and AvaCode Solut
 
 ## 3. How Access Works
 
-Learners do not create accounts on InboxAcademy. You may be enrolled in a course either by a Course Provider, who supplies your email address to the Platform, or by submitting an enrolment form yourself. Course content is delivered to your inbox via email, and personalised content links are secured using time-limited JWT tokens. No password or account login is required.
+Learners do not create accounts on InboxAcademy. You may be enrolled in a course either by a Course Provider, who supplies your email address to the Platform, or by submitting an enrollment form yourself. Course content is delivered to your inbox via email, and personalized content links are secured using time-limited JWT tokens. No password or account login is required.
 
 You may unsubscribe from a course at any time via the unsubscribe link provided in your lesson emails. Unsubscribing will stop future lesson delivery but does not automatically delete your previously collected data. Please note that upon unsubscribing, your previously submitted data — including quiz responses, assignment submissions, and course progress — will remain accessible to the Course Provider through the Platform. Unsubscribing is not equivalent to a data deletion request. To request full deletion of your personal data, please contact us at legal@inboxacademy.io.
 
@@ -68,7 +68,7 @@ InboxAcademy does not validate the educational content or accreditation status o
 By accessing course content through the Platform, you agree not to:
 
 - Share, redistribute, or republish course content without the Course Provider's explicit permission.
-- Attempt to bypass, tamper with, or reverse-engineer the secure token links used to deliver personalised content.
+- Attempt to bypass, tamper with, or reverse-engineer the secure token links used to deliver personalized content.
 - Submit harmful, offensive, unlawful, or misleading content in any quiz responses or assignment submissions.
 - Impersonate any person or entity, or misrepresent your identity or affiliation in any way while using the Platform.
 - Use the Platform in any way that violates applicable local, national, or international law or regulation.
@@ -117,5 +117,5 @@ If you have any questions about these Terms, please contact us:
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
-
+- v1.1 (July 8, 2026) Spelling updated to American English (non-substantive)
 - v1.0 (April 3, 2026) Initial release

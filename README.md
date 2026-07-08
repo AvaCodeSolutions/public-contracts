@@ -37,7 +37,7 @@ Tags allow any version ever referenced in our products to be retrieved at any ti
 
 ## Changelog
 
-All meaningful changes to a document are summarised directly at the bottom of the relevant file under a **Changelog** section, so you don't need to read git diffs to understand what changed.
+All meaningful changes to a document are summarized directly at the bottom of the relevant file under a **Changelog** section, so you don't need to read git diffs to understand what changed.
 
 ---
 

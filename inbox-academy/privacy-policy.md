@@ -12,7 +12,7 @@
 
 ## 1. Who We Are
 
-InboxAcademy is operated by AvaCode Solutions LLC-FZ, registered in Meydan Free Zone, Dubai, UAE. We are the data controller for personal data collected through the Platform. For all privacy-related enquiries, contact us at legal@inboxacademy.io.
+InboxAcademy is operated by AvaCode Solutions LLC-FZ, registered in Meydan Free Zone, Dubai, UAE. We are the data controller for personal data collected through the Platform. For all privacy-related inquiries, contact us at legal@inboxacademy.io.
 
 ---
 
@@ -20,8 +20,8 @@ InboxAcademy is operated by AvaCode Solutions LLC-FZ, registered in Meydan Free 
 
 This Privacy Policy applies to:
 
-- **Course Providers** — organisations or individuals who create accounts and use the Platform to deliver courses.
-- **Learners** — individuals who receive course content via email and interact with personalised course links.
+- **Course Providers** — organizations or individuals who create accounts and use the Platform to deliver courses.
+- **Learners** — individuals who receive course content via email and interact with personalized course links.
 - **Visitors** — anyone who visits our website at https://inboxacademy.io.
 
 ---
@@ -33,8 +33,8 @@ This Privacy Policy applies to:
 When you register and use the Platform, we collect:
 
 - Name, email address, and account credentials.
-- Organisation name and description.
-- Optional organisation profile information, such as logo, website address, LinkedIn page, and YouTube channel.
+- Organization name and description.
+- Optional organization profile information, such as logo, website address, LinkedIn page, and YouTube channel.
 - Billing information processed via Stripe (we do not store card details).
 - Course content, lesson materials, and quiz data you upload or create.
 - Usage data and activity logs within your account.
@@ -45,19 +45,19 @@ If you choose to connect your Google Workspace account to use our optional learn
 
 ### 3.3 Learners
 
-Learners do not create accounts on InboxAcademy. We collect the following data either as provided by the Course Provider, submitted by you during self-enrolment, or collected through your participation in a course:
+Learners do not create accounts on InboxAcademy. We collect the following data either as provided by the Course Provider, submitted by you during self-enrollment, or collected through your participation in a course:
 
 - Email address.
 - Course progress, quiz response data, and submitted assignment data.
 - Email engagement data (delivery, open, and link interaction events).
 
-Personalised content is delivered via secure, time-limited JWT token links. No password or account login is required for Learners.
+Personalized content is delivered via secure, time-limited JWT token links. No password or account login is required for Learners.
 
 Quiz responses and assignment submissions are shared with the relevant Course Provider through the Platform so they can deliver, assess, and manage the course.
 
 ### 3.4 Website Visitors
 
-When you visit our website, we collect usage and behavioural data including pages visited, session duration, device type, approximate location, IP address, browser type, and referring URL. This data is collected via Google Analytics 4 (GA4).
+When you visit our website, we collect usage and behavioral data including pages visited, session duration, device type, approximate location, IP address, browser type, and referring URL. This data is collected via Google Analytics 4 (GA4).
 
 Your IP address is also used to determine your approximate country of residence via IP geolocation. This is used solely to decide whether to display a cookie consent banner, in accordance with applicable privacy regulations. No additional personal data is collected or stored as part of this process.
 
@@ -100,11 +100,11 @@ We use the data we collect to:
 
 - Provide, operate, and improve the Platform and its features.
 - Process Subscription payments and manage billing via Stripe.
-- Deliver course content and personalised learning experiences to Learners.
+- Deliver course content and personalized learning experiences to Learners.
 - Generate and issue verifiable certificates of completion.
 - Process AI feature requests via third-party AI providers (e.g., OpenAI) for quiz generation and content editing.
 - Communicate with Course Providers regarding account updates, billing, and service changes.
-- Analyse website traffic and usage patterns via Google Analytics.
+- Analyze website traffic and usage patterns via Google Analytics.
 - Detect, investigate, and prevent fraudulent or abusive use of the Platform.
 - Comply with applicable legal obligations.
 
@@ -114,7 +114,7 @@ We use the data we collect to:
 
 For users located in the European Economic Area (EEA) or the United Kingdom, we process personal data under the following legal bases:
 
-- **Contract Performance:** Processing necessary to provide the Platform services under your Subscription or enrolment agreement.
+- **Contract Performance:** Processing necessary to provide the Platform services under your Subscription or enrollment agreement.
 - **Legitimate Interests:** Analytics, fraud prevention, and service improvement, where such interests are not overridden by your rights.
 - **Consent:** For non-essential analytics cookies on our website.
 - **Legal Obligation:** Where processing is required to comply with applicable laws.
@@ -129,9 +129,9 @@ We do not sell your personal data. We share data with the following trusted thir
 
 - **Stripe:** For payment processing. Stripe's Privacy Policy applies to data processed by Stripe.
 - **Google Cloud Platform (GCP — EU Region):** For hosting, data storage, and infrastructure.
-- **Google Analytics:** For website usage analysis (anonymised where possible).
+- **Google Analytics:** For website usage analysis (anonymized where possible).
 - **OpenAI:** For AI-powered features. Input content used for AI processing is subject to OpenAI's usage policies. We do not permit OpenAI to use your data for model training.
-- **Google Workspace (OAuth):** If you connect your Google Workspace for group enrolment, we access only the data scopes you explicitly authorise.
+- **Google Workspace (OAuth):** If you connect your Google Workspace for group enrollment, we access only the data scopes you explicitly authorize.
 
 We may also disclose your data where required by law, court order, or to protect the rights, property, or safety of InboxAcademy, our users, or others.
 
@@ -139,7 +139,7 @@ We may also disclose your data where required by law, court order, or to protect
 
 ## 8. Learner Email Addresses & Course Providers
 
-As a Learner, your email address is collected either when you self-enrol or when a Course Provider enrols you. If you self-enrol, your email address will be shared with the Course Provider of that course so they can deliver and manage the course you are enrolled in.
+As a Learner, your email address is collected either when you self-enroll or when a Course Provider enrolls you. If you self-enroll, your email address will be shared with the Course Provider of that course so they can deliver and manage the course you are enrolled in.
 
 Neither InboxAcademy nor Course Providers may use Learner email addresses for any purpose unrelated to the delivery of the specific course the Learner is enrolled in. This includes, but is not limited to, marketing communications, third-party data sharing, or any other non-educational use. Course Providers are contractually bound to this restriction through their agreement with InboxAcademy.
 
@@ -160,7 +160,7 @@ We retain personal data for as long as necessary to provide the Platform service
 
 ## 10. Data Security
 
-All data is hosted on Google Cloud Platform in the EU region. We implement appropriate technical and organisational security measures to protect your personal data, including encryption in transit (TLS) and access controls.
+All data is hosted on Google Cloud Platform in the EU region. We implement appropriate technical and organizational security measures to protect your personal data, including encryption in transit (TLS) and access controls.
 
 While we take data security seriously, no system can be guaranteed to be 100% secure. In the event of a data breach that poses a risk to your rights and freedoms, we will notify affected parties and relevant authorities in accordance with applicable law.
 
@@ -189,7 +189,7 @@ InboxAcademy does not collect age information from Learners and cannot independe
 
 All personal data collected through the Platform is primarily hosted on Google Cloud Platform servers located in the European Union, ensuring a high standard of data protection by default.
 
-Where data is processed by third-party providers such as OpenAI, those transfers are governed by the provider's own Data Processing Agreement (DPA) and appropriate safeguards, including Standard Contractual Clauses (SCCs) approved by the European Commission where applicable. InboxAcademy takes reasonable steps to minimise the transfer of personal data outside the EEA, including where available using EU-region endpoints provided by third-party services.
+Where data is processed by third-party providers such as OpenAI, those transfers are governed by the provider's own Data Processing Agreement (DPA) and appropriate safeguards, including Standard Contractual Clauses (SCCs) approved by the European Commission where applicable. InboxAcademy takes reasonable steps to minimize the transfer of personal data outside the EEA, including where available using EU-region endpoints provided by third-party services.
 
 ---
 
@@ -197,11 +197,11 @@ Where data is processed by third-party providers such as OpenAI, those transfers
 
 We may update this Privacy Policy from time to time. Material changes will be communicated to registered Course Providers via email at least 14 days before they take effect. The "Effective Date" at the top of this document reflects the date of the most recent revision. Continued use of the Platform after the effective date constitutes acceptance of the updated Policy.
 
-By registering as a Course Provider, you agree to this Privacy Policy as part of your acceptance of the InboxAcademy Terms of Service. By enrolling in a course — whether through self-enrolment or via a Course Provider — Learners acknowledge that their data will be processed in accordance with this Privacy Policy. Where Learners are enrolled by a Course Provider, the Course Provider is responsible for ensuring that their Learners are made aware of this Privacy Policy prior to or at the time of enrolment.
+By registering as a Course Provider, you agree to this Privacy Policy as part of your acceptance of the InboxAcademy Terms of Service. By enrolling in a course — whether through self-enrollment or via a Course Provider — Learners acknowledge that their data will be processed in accordance with this Privacy Policy. Where Learners are enrolled by a Course Provider, the Course Provider is responsible for ensuring that their Learners are made aware of this Privacy Policy prior to or at the time of enrollment.
 
 ---
 
-## 15. Contact & Data Protection Enquiries
+## 15. Contact & Data Protection Inquiries
 
 For any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
 
@@ -214,5 +214,5 @@ For any questions, concerns, or requests regarding this Privacy Policy or our da
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
-
-- v1.0 (April 3, 2026)  Initial release
+- v1.1 (July 8, 2026) Spelling updated to American English (non-substantive)
+- v1.0 (April 3, 2026) Initial release
