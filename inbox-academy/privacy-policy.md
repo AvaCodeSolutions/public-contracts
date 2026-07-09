@@ -38,6 +38,7 @@ When you register and use the Platform, we collect:
 - Billing information processed via Stripe (we do not store card details).
 - Course content, lesson materials, and quiz data you upload or create.
 - Usage data and activity logs within your account.
+- Interaction and device signals collected via Google reCAPTCHA Enterprise when you register, used to detect and prevent fraudulent or automated account creation.
 
 ### 3.2 Optional Google Workspace OAuth Import
 
@@ -70,6 +71,8 @@ For details on how analytics cookies are managed and how to opt out, see Section
 ### 4.1 Necessary Cookies
 
 The Platform uses strictly necessary cookies essential for the operation of the service, such as maintaining your authenticated session and ensuring secure access. These cookies do not require your consent and cannot be opted out of while using the Platform.
+
+We also use Google reCAPTCHA Enterprise on our registration form to detect and prevent fraudulent or automated sign-ups. reCAPTCHA may set cookies and collect device and interaction data as part of this process. This data is processed by Google in accordance with the [Google Privacy & Terms](https://policies.google.com/privacy).
 
 ### 4.2 Analytics Cookies (Website Only)
 
@@ -132,6 +135,7 @@ We do not sell your personal data. We share data with the following trusted thir
 - **Google Analytics:** For website usage analysis (anonymized where possible).
 - **OpenAI:** For AI-powered features. Input content used for AI processing is subject to OpenAI's usage policies. We do not permit OpenAI to use your data for model training.
 - **Google Workspace (OAuth):** If you connect your Google Workspace for group enrollment, we access only the data scopes you explicitly authorize.
+- **Google reCAPTCHA Enterprise:** For fraud and bot prevention on our registration form. Data processed by reCAPTCHA is subject to Google's Privacy Policy.
 
 We may also disclose your data where required by law, court order, or to protect the rights, property, or safety of InboxAcademy, our users, or others.
 
@@ -214,5 +218,6 @@ For any questions, concerns, or requests regarding this Privacy Policy or our da
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v1.2 (July 8, 2026) Disclosed use of Google reCAPTCHA Enterprise on the registration form
 - v1.1 (July 8, 2026) Spelling updated to American English (non-substantive)
 - v1.0 (April 3, 2026) Initial release
