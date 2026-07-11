@@ -35,14 +35,21 @@ When you register and use the Platform, we collect:
 - Name, email address, and account credentials.
 - Organization name and description.
 - Optional organization profile information, such as logo, website address, LinkedIn page, and YouTube channel.
+- Profile photos for individual Organization Users, either added by you manually or, for the Admin user created when you register, sourced automatically from your Google or LinkedIn account if you register using social sign-in.
 - Billing information processed via Stripe (we do not store card details).
 - Course content, lesson materials, and quiz data you upload or create.
 - Usage data and activity logs within your account.
 - Interaction and device signals collected via Google reCAPTCHA Enterprise when you register, used to detect and prevent fraudulent or automated account creation.
 
+Unlike Learner profile pictures imported via Google Workspace (see Section 3.2), any profile photo associated with an Organization User — whether added manually or sourced automatically from Google or LinkedIn at registration — is publicly accessible on the internet, since it may be used in course or assignment-related emails sent to Learners. Similarly, any image you embed in a Course lesson, quiz, assignment, or newsletter is hosted at a publicly accessible URL because this content is delivered via email, even where the Course itself is not marked as public. Please do not upload or embed any image that must not be publicly accessible.
+
+If you register or sign in using Google or LinkedIn social sign-in, we collect your name, email address, and profile photo (where available) from that account at the time you register or sign in; we do not access your account again afterward. You may revoke InboxAcademy's access to your Google or LinkedIn account at any time through that provider's own account settings, and you may request deletion of the data we collected from it by contacting us at legal@inboxacademy.io.
+
 ### 3.2 Optional Google Workspace OAuth Import
 
-If you choose to connect your Google Workspace account to use our optional learner import feature, we access only the data needed to import email addresses of users in your workspace as Learners for your courses. We do not collect Google Workspace details as part of standard account registration.
+If you choose to connect your Google Workspace account to use our optional learner import feature, we access the data needed to import users in your workspace as Learners for your courses, including their email address and profile picture (where available). Imported Learner profile pictures are accessible only to your Organization and to InboxAcademy administrators, and are not publicly accessible. We do not collect Google Workspace details as part of standard account registration.
+
+InboxAcademy's use and transfer of information received from Google APIs to any other app will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
 
 ### 3.3 Learners
 
@@ -51,10 +58,13 @@ Learners do not create accounts on InboxAcademy. We collect the following data e
 - Email address.
 - Course progress, quiz response data, and submitted assignment data.
 - Email engagement data (delivery, open, and link interaction events).
+- Your name, if you choose to claim a certificate of completion. This is collected via a form link sent to you by email after you complete a course, and only if you claim a certificate.
 
 Personalized content is delivered via secure, time-limited JWT token links. No password or account login is required for Learners.
 
 Quiz responses and assignment submissions are shared with the relevant Course Provider through the Platform so they can deliver, assess, and manage the course.
+
+If you claim a certificate of completion, it displays your name, the course name, the Course Provider's organization name and logo (where provided), and the date of issue. Each certificate has its own public verification page, accessible via a unique link and QR code, that anyone with the link can use to confirm the certificate's authenticity. This verification page is public and is not subject to the same access restrictions as your other course data.
 
 ### 3.4 Website Visitors
 
@@ -136,6 +146,7 @@ We do not sell your personal data. We share data with the following trusted thir
 - **OpenAI:** For AI-powered features. Input content used for AI processing is subject to OpenAI's usage policies. We do not permit OpenAI to use your data for model training.
 - **Google Workspace (OAuth):** If you connect your Google Workspace for group enrollment, we access only the data scopes you explicitly authorize.
 - **Google reCAPTCHA Enterprise:** For fraud and bot prevention on our registration form. Data processed by reCAPTCHA is subject to Google's Privacy Policy.
+- **Google and LinkedIn (OAuth):** For account sign-in, if you choose to register or sign in using your Google or LinkedIn account. Data processed as part of this sign-in is subject to the respective provider's own privacy policy.
 
 We may also disclose your data where required by law, court order, or to protect the rights, property, or safety of InboxAcademy, our users, or others.
 
@@ -157,6 +168,7 @@ We retain personal data for as long as necessary to provide the Platform service
 
 - **Course Provider account data** is retained for the duration of the active Subscription and for up to 24 months following account closure.
 - **Learner data** (email address, progress, quiz responses, and assignment submissions) is retained for as long as the Course Provider's account is active or as otherwise instructed by the Course Provider. Learners may unsubscribe from a course at any time via the unsubscribe link provided in their lesson emails. Unsubscribing stops future lesson delivery but is not equivalent to a data deletion request — previously submitted data including quiz responses, assignment submissions, and course progress will remain accessible to the Course Provider through the Platform. To request full deletion of your data, please contact us at legal@inboxacademy.io.
+- **Newsletter subscriber data** (email address) is retained for as long as the Course Provider's account is active or as otherwise instructed by the Course Provider. Subscribers may unsubscribe from a newsletter at any time via the unsubscribe link provided in newsletter emails. Unsubscribing stops future newsletter sendouts but is not equivalent to a data deletion request, and is separate from unsubscribing from any course. To request full deletion of your data, please contact us at legal@inboxacademy.io.
 - **Website analytics data** is retained in accordance with Google Analytics default retention settings (up to 14 months).
 - **Billing records** are retained for a minimum of 5 years as required for financial compliance.
 
@@ -195,6 +207,8 @@ All personal data collected through the Platform is primarily hosted on Google C
 
 Where data is processed by third-party providers such as OpenAI, those transfers are governed by the provider's own Data Processing Agreement (DPA) and appropriate safeguards, including Standard Contractual Clauses (SCCs) approved by the European Commission where applicable. InboxAcademy takes reasonable steps to minimize the transfer of personal data outside the EEA, including where available using EU-region endpoints provided by third-party services.
 
+Regardless of where you are located, your personal data, including billing data processed via Stripe, may be transferred to, processed in, and stored in countries other than your own, including the United States and other jurisdictions in which InboxAcademy or its service providers operate. By using the Platform, you acknowledge and agree to this transfer, processing, and storage of your personal data outside of your country of residence.
+
 ---
 
 ## 14. Changes to This Policy & User Acceptance
@@ -207,7 +221,7 @@ By registering as a Course Provider, you agree to this Privacy Policy as part of
 
 ## 15. Contact & Data Protection Inquiries
 
-For any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
+Email is currently our only support channel. For any questions, concerns, complaints, or requests regarding this Privacy Policy or our data practices, please contact us:
 
 - **Email:** legal@inboxacademy.io
 - **Legal Entity:** AvaCode Solutions LLC-FZ
@@ -218,6 +232,7 @@ For any questions, concerns, or requests regarding this Privacy Policy or our da
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v1.3 (July 11, 2026) Disclosed certificate data, Organization User and content image public accessibility, Google/LinkedIn sign-in data, Google Limited Use policy adherence, LinkedIn subprocessor, newsletter unsubscribe, cross-border data transfers, and clarified support contact
 - v1.2 (July 8, 2026) Disclosed use of Google reCAPTCHA Enterprise on the registration form
 - v1.1 (July 8, 2026) Spelling updated to American English (non-substantive)
 - v1.0 (April 3, 2026) Initial release

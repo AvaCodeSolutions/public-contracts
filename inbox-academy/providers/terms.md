@@ -26,7 +26,7 @@ These Terms apply to your use of the Platform as a Course Provider. They do not 
 - **"Organization User"** refers to an individual member of your Organization with an assigned role (Admin, Editor, Instructor, or Viewer).
 - **"Course"** refers to any set of lessons, quizzes, assignments, or other material you create and deliver through the Platform.
 - **"Learner"** refers to an individual enrolled in one of your Courses or subscribed to one of your newsletters.
-- **"Learner Data"** refers to any data relating to a Learner that you collect, receive, or generate through the Platform, including but not limited to email addresses, enrollment status, progress, quiz responses, and assignment submissions.
+- **"Learner Data"** refers to any data relating to a Learner that you collect, receive, or generate through the Platform, including but not limited to email addresses, profile pictures (where imported via Google Workspace), enrollment status, progress, quiz responses, and assignment submissions.
 - **"Content"** refers to any course material, lesson, quiz, assignment, newsletter, or other material you create, upload, or deliver through the Platform.
 - **"Subscription"** refers to your selected billing plan for use of the Platform.
 - **"We", "Us", or "Our"** refers to AvaCode Solutions LLC-FZ.
@@ -36,6 +36,8 @@ These Terms apply to your use of the Platform as a Course Provider. They do not 
 ## 3. Description of Service
 
 InboxAcademy is a platform that enables Organizations to create and manage Courses and to deliver them to Learners by email. Depending on your Subscription plan, the Platform may also provide newsletter creation and delivery, learner and course analytics, AI-assisted content tools, an optional inbound mailbox integration for command-based enrollment, Google Workspace group enrollment, and programmatic API access.
+
+Unless you disable it for a given Course, the Platform will offer Learners who complete that Course the option to claim a digital certificate of completion. Each certificate displays the Learner's name, the Course name, your Organization's name and logo (where provided), and the date of issue, and has its own public verification page, accessible via a unique link and QR code, that anyone with the link can use to confirm the certificate's authenticity.
 
 We provide the technology that stores, schedules, and delivers your Content. We do not create, author, or take editorial responsibility for your Content, except as set out in Section 9 (Content Policy & Review Rights).
 
@@ -68,7 +70,7 @@ Paid Subscriptions are billed and managed through Stripe. New paid signups may b
 
 You are responsible for keeping your billing information current and for all charges incurred under your Subscription. Except as set out in Section 14 (Service Credit & Refund Policy), fees are non-refundable.
 
-You can view invoices, update payment details, and manage or cancel your Subscription at any time via the [Stripe customer portal](https://billing.stripe.com/p/login/6oU28scRQ3M76z35ZMcjS00).
+You can view invoices, update payment details, and manage or cancel your Subscription at any time via the [Stripe customer portal](https://billing.stripe.com/p/login/6oU28scRQ3M76z35ZMcjS00), or directly on the Platform from the Subscription page under your account menu. When you cancel, your Subscription remains active, and you will retain access to its features, until the end of your current paid billing period. You will not be charged again after that date, and your Subscription will then be paused as described above.
 
 ---
 
@@ -77,6 +79,8 @@ You can view invoices, update payment details, and manage or cancel your Subscri
 As between you and us, you retain all ownership rights in the Content you create and upload to the Platform. You grant us a limited, non-exclusive, worldwide license to host, store, reproduce, transmit, and display your Content solely to the extent necessary to operate the Platform and provide the Service to you and your Learners.
 
 You are solely responsible for your Content, including its accuracy, legality, and compliance with applicable laws and with the Content Policy in Section 9. You represent that you own or have the necessary rights to all Content you upload, and that your use of it does not infringe the rights of any third party.
+
+Any profile photo associated with an Organization User — whether added manually or, for the Admin user created when you register, sourced automatically from Google or LinkedIn if you register using social sign-in — and any image you embed in Course lessons, quizzes, assignments, or newsletters, is hosted at a publicly accessible URL because this content is delivered via email. This applies even where the Course itself is not marked as public. You are responsible for ensuring you have the necessary rights to publish any such image, and for not uploading or embedding any image that must not be publicly accessible.
 
 ---
 
@@ -186,7 +190,7 @@ This Section states your sole and exclusive remedy, and our entire liability, fo
 
 We may suspend or terminate your access to the Platform, in whole or in part, if you materially breach these Terms (including the Content Policy in Section 9), fail to pay applicable fees, or use the Platform in a way that we reasonably believe creates legal or security risk to us, our Learners, or other users. Where reasonably possible, we shall provide notice and an opportunity to resolve the issue before suspending or terminating your account for a first-time, non-severe violation.
 
-You may cancel your Subscription at any time via the [Stripe customer portal](https://billing.stripe.com/p/login/6oU28scRQ3M76z35ZMcjS00), or close your Organization account by contacting our support team at support@inboxacademy.io. Upon termination, your right to access the Platform ends, and we may delete or anonymize your Content and Learner Data after a reasonable retention period, in accordance with our Privacy Policy, unless a longer retention period is required by law.
+You may cancel your Subscription at any time via the [Stripe customer portal](https://billing.stripe.com/p/login/6oU28scRQ3M76z35ZMcjS00) or directly on the Platform from the Subscription page under your account menu, or close your Organization account by contacting our support team at support@inboxacademy.io. Upon termination, your right to access the Platform ends, and we may delete or anonymize your Content and Learner Data after a reasonable retention period, in accordance with our Privacy Policy, unless a longer retention period is required by law.
 
 ---
 
@@ -228,9 +232,10 @@ We reserve the right to update these Terms at any time. Material changes shall b
 
 ## 21. Contact Us
 
-If you have any questions about these Terms, please contact us:
+Email is currently our only support channel. If you have any questions, complaints, or issues about these Terms or the Platform, please contact us:
 
-- **Email:** legal@inboxacademy.io
+- **General questions, complaints, and legal matters:** legal@inboxacademy.io
+- **Billing, refunds, and subscription-related requests:** support@inboxacademy.io
 - **Legal Entity:** AvaCode Solutions LLC-FZ
 - **Address:** Meydan Free Zone, Dubai, United Arab Emirates
 
@@ -239,6 +244,7 @@ If you have any questions about these Terms, please contact us:
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v2.1 (July 11, 2026) Disclosed certificate feature and public verification pages, Organization User photo public accessibility, added in-Platform cancellation option and cancellation timing, and clarified support contact
 - v2.0 (July 8, 2026) Reduced free trial period from one (1) month to fourteen (14) days
 - v1.1 (July 8, 2026) Spelling updated to American English (non-substantive)
 - v1.0 (July 7, 2026) Initial draft
