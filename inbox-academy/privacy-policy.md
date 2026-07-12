@@ -45,6 +45,8 @@ Unlike Learner profile pictures imported via Google Workspace (see Section 3.2),
 
 If you register or sign in using Google or LinkedIn social sign-in, we collect your name, email address, and profile photo (where available) from that account at the time you register or sign in; we do not access your account again afterward. You may revoke InboxAcademy's access to your Google or LinkedIn account at any time through that provider's own account settings, and you may request deletion of the data we collected from it by contacting us at legal@inboxacademy.io.
 
+By default, a Course Provider's Organization and each Course it creates are publicly visible, unless the Course Provider makes either private instead. The resulting public profile page (Organization name, logo, description, website, and social links, where provided) and/or public Course page is accessible to anyone, including individuals who are not enrolled Learners. While an Organization or Course is public, we may also feature this information elsewhere on the Platform or our website, such as in directories, search results, or promotional placements.
+
 ### 3.2 Optional Google Workspace OAuth Import
 
 If you choose to connect your Google Workspace account to use our optional learner import feature, we access the data needed to import users in your workspace as Learners for your courses, including their email address and profile picture (where available). Imported Learner profile pictures are accessible only to your Organization and to InboxAcademy administrators, and are not publicly accessible. We do not collect Google Workspace details as part of standard account registration.
@@ -232,6 +234,7 @@ Email is currently our only support channel. For any questions, concerns, compla
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v1.4 (July 12, 2026) Disclosed that Organization and Course public visibility is on by default, and that public information may be featured elsewhere on the Platform or website
 - v1.3 (July 11, 2026) Disclosed certificate data, Organization User and content image public accessibility, Google/LinkedIn sign-in data, Google Limited Use policy adherence, LinkedIn subprocessor, newsletter unsubscribe, cross-border data transfers, and clarified support contact
 - v1.2 (July 8, 2026) Disclosed use of Google reCAPTCHA Enterprise on the registration form
 - v1.1 (July 8, 2026) Spelling updated to American English (non-substantive)
