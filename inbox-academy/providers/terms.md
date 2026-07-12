@@ -39,6 +39,8 @@ InboxAcademy is a platform that enables Organizations to create and manage Cours
 
 Unless you disable it for a given Course, the Platform will offer Learners who complete that Course the option to claim a digital certificate of completion. Each certificate displays the Learner's name, the Course name, your Organization's name and logo (where provided), and the date of issue, and has its own public verification page, accessible via a unique link and QR code, that anyone with the link can use to confirm the certificate's authenticity.
 
+By default, your Organization and each Course you create are publicly visible, and you may choose to make either private instead. While your Organization is public, we display a public profile page for it (including its name, logo, description, website, and social links, where provided), and while a Course is public, we display a public page for it that anyone can discover and join, including individuals who are not otherwise your Learners. While your Organization or a Course is public, we may also feature its public information elsewhere on the Platform or our website, such as in directories, search results, or promotional placements.
+
 We provide the technology that stores, schedules, and delivers your Content. We do not create, author, or take editorial responsibility for your Content, except as set out in Section 9 (Content Policy & Review Rights).
 
 ---
@@ -76,7 +78,7 @@ You can view invoices, update payment details, and manage or cancel your Subscri
 
 ## 6. Your Content & Intellectual Property
 
-As between you and us, you retain all ownership rights in the Content you create and upload to the Platform. You grant us a limited, non-exclusive, worldwide license to host, store, reproduce, transmit, and display your Content solely to the extent necessary to operate the Platform and provide the Service to you and your Learners.
+As between you and us, you retain all ownership rights in the Content you create and upload to the Platform. You grant us a limited, non-exclusive, worldwide license to host, store, reproduce, transmit, and display your Content solely to the extent necessary to operate the Platform and provide the Service to you and your Learners. While your Organization or a Course is public, this license also includes the right to display and feature the resulting public information elsewhere on the Platform and our website, as described in Section 3, for as long as it remains public.
 
 You are solely responsible for your Content, including its accuracy, legality, and compliance with applicable laws and with the Content Policy in Section 9. You represent that you own or have the necessary rights to all Content you upload, and that your use of it does not infringe the rights of any third party.
 
@@ -244,6 +246,7 @@ Email is currently our only support channel. If you have any questions, complain
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v2.2 (July 12, 2026) Disclosed that Organization and Course public visibility is on by default, added corresponding content license for featuring public information elsewhere on the Platform or website
 - v2.1 (July 11, 2026) Disclosed certificate feature and public verification pages, Organization User photo public accessibility, added in-Platform cancellation option and cancellation timing, and clarified support contact
 - v2.0 (July 8, 2026) Reduced free trial period from one (1) month to fourteen (14) days
 - v1.1 (July 8, 2026) Spelling updated to American English (non-substantive)
