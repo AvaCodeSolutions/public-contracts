@@ -1,6 +1,6 @@
 # InboxAcademy — Privacy Policy
 
-**Effective Date:** April 3, 2026
+**Effective Date:** August 14, 2026
 **Legal Entity:** AvaCode Solutions LLC-FZ
 **Registered in:** Meydan Free Zone, Dubai, UAE
 **Data Hosting:** Google Cloud Platform — EU Region
@@ -119,9 +119,12 @@ We use the data we collect to:
 - Generate and issue verifiable certificates of completion.
 - Process AI feature requests via third-party AI providers (e.g., OpenAI) for quiz generation and content editing.
 - Communicate with Course Providers regarding account updates, billing, and service changes.
+- Send Course Providers product tips, onboarding guidance, and other engagement communications about the Platform.
 - Analyze website traffic and usage patterns via Google Analytics.
 - Detect, investigate, and prevent fraudulent or abusive use of the Platform.
 - Comply with applicable legal obligations.
+
+Product tips, onboarding guidance, and other engagement communications are optional. Every such email includes an unsubscribe link, and you may opt out at any time without affecting delivery of account, billing, or service-related emails.
 
 ---
 
@@ -234,6 +237,7 @@ Email is currently our only support channel. For any questions, concerns, compla
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v1.5 (August 14, 2026) Disclosed that we may send Course Providers product tips, onboarding guidance, and other engagement communications about the Platform
 - v1.4 (July 12, 2026) Disclosed that Organization and Course public visibility is on by default, and that public information may be featured elsewhere on the Platform or website
 - v1.3 (July 11, 2026) Disclosed certificate data, Organization User and content image public accessibility, Google/LinkedIn sign-in data, Google Limited Use policy adherence, LinkedIn subprocessor, newsletter unsubscribe, cross-border data transfers, and clarified support contact
 - v1.2 (July 8, 2026) Disclosed use of Google reCAPTCHA Enterprise on the registration form
