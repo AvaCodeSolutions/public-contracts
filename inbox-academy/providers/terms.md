@@ -1,6 +1,6 @@
 # InboxAcademy: Course Provider Terms of Service
 
-**Effective Date:** July 7, 2026
+**Effective Date:** September 1, 2026
 **Legal Entity:** AvaCode Solutions LLC-FZ
 **Registered in:** Meydan Free Zone, Dubai, UAE
 **Contact:** legal@inboxacademy.io
@@ -66,9 +66,11 @@ You are responsible for the actions of every Organization User acting under your
 
 ## 5. Subscription Plans & Billing
 
-The Platform is offered under several Subscription plans (currently Free and Professional), each with different feature sets and usage limits, as described on our pricing page. We may change plan features, limits, and pricing from time to time, with reasonable notice to existing Subscribers for changes that materially affect a paid plan.
+The Platform is offered under one or more Subscription plans, each with different feature sets and usage limits, as described on our pricing page. Not all plans are open to new Organizations. We may close a plan to new signups, or otherwise limit its availability, at any time. Where a plan is closed to new signups, Organizations already subscribed to that plan may remain on it until they change plans or their Subscription is otherwise terminated, subject to our right to change plan features and limits as set out below.
 
-Paid Subscriptions are billed and managed through Stripe. New paid signups may be eligible for a free trial period of fourteen (14) days, during which no payment method is required. If a trial is not converted to a paid Subscription before it ends, your Subscription shall automatically be paused rather than charged, and you shall lose access to features specific to the Professional plan until you subscribe. Usage beyond the limits included in your plan (such as additional Learners) may be billed as separate metered overage charges. The number of newsletter sendouts included is defined by your Subscription plan, as described on our pricing page.
+We may change plan features, limits, and pricing from time to time, with reasonable notice to existing Subscribers for changes that materially affect a paid plan.
+
+Paid Subscriptions are billed and managed through Stripe. New paid signups may be eligible for a free trial period of fourteen (14) days, during which no payment method is required. If a trial is not converted to a paid Subscription before it ends, your Subscription shall automatically be paused rather than charged, and you shall lose access to features specific to paid plans until you subscribe. Usage beyond the limits included in your plan (such as additional Learners) may be billed as separate metered overage charges. The number of newsletter sendouts included is defined by your Subscription plan, as described on our pricing page.
 
 You are responsible for keeping your billing information current and for all charges incurred under your Subscription. Except as set out in Section 14 (Service Credit & Refund Policy), fees are non-refundable.
 
@@ -246,6 +248,7 @@ Email is currently our only support channel. If you have any questions, complain
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v2.4 (September 1, 2026) Removed named Subscription plans in favor of the pricing page, and disclosed that plans may be closed to new signups while existing Subscribers remain on them
 - v2.3 (July 12, 2026) Clarified that newsletter sendout limits are defined by Subscription plan, as described on the pricing page
 - v2.2 (July 12, 2026) Disclosed that Organization and Course public visibility is on by default, added corresponding content license for featuring public information elsewhere on the Platform or website
 - v2.1 (July 11, 2026) Disclosed certificate feature and public verification pages, Organization User photo public accessibility, added in-Platform cancellation option and cancellation timing, and clarified support contact
