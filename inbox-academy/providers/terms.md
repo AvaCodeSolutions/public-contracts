@@ -1,6 +1,6 @@
 # InboxAcademy: Course Provider Terms of Service
 
-**Effective Date:** September 1, 2026
+**Effective Date:** September 15, 2026
 **Legal Entity:** AvaCode Solutions LLC-FZ
 **Registered in:** Meydan Free Zone, Dubai, UAE
 **Contact:** legal@inboxacademy.io
@@ -194,6 +194,8 @@ This Section states your sole and exclusive remedy, and our entire liability, fo
 
 We may suspend or terminate your access to the Platform, in whole or in part, if you materially breach these Terms (including the Content Policy in Section 9), fail to pay applicable fees, or use the Platform in a way that we reasonably believe creates legal or security risk to us, our Learners, or other users. Where reasonably possible, we shall provide notice and an opportunity to resolve the issue before suspending or terminating your account for a first-time, non-severe violation.
 
+Independently of the preceding paragraph, and without any obligation to provide prior notice, we may also remove an Organization's account where: (a) the Organization has no active paid Subscription; (b) the Organization has not created any Content; and (c) no Organization User has accessed the account for a continuous period of sixty (60) days or more. Removal under this paragraph may include the permanent deletion of the Organization's account and any associated data.
+
 You may cancel your Subscription at any time via the [Stripe customer portal](https://billing.stripe.com/p/login/6oU28scRQ3M76z35ZMcjS00) or directly on the Platform from the Subscription page under your account menu, or close your Organization account by contacting our support team at support@inboxacademy.io. Upon termination, your right to access the Platform ends, and we may delete or anonymize your Content and Learner Data after a reasonable retention period, in accordance with our Privacy Policy, unless a longer retention period is required by law.
 
 ---
@@ -248,6 +250,7 @@ Email is currently our only support channel. If you have any questions, complain
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v2.5 (September 15, 2026) Added right to remove, without prior notice, unpaid Organization accounts with no Content that have been inactive for sixty (60) or more consecutive days
 - v2.4 (September 1, 2026) Removed named Subscription plans in favor of the pricing page, and disclosed that plans may be closed to new signups while existing Subscribers remain on them
 - v2.3 (July 12, 2026) Clarified that newsletter sendout limits are defined by Subscription plan, as described on the pricing page
 - v2.2 (July 12, 2026) Disclosed that Organization and Course public visibility is on by default, added corresponding content license for featuring public information elsewhere on the Platform or website
