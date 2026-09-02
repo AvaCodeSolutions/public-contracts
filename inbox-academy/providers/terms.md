@@ -1,6 +1,6 @@
 # InboxAcademy: Course Provider Terms of Service
 
-**Effective Date:** September 15, 2026
+**Effective Date:** September 2, 2026
 **Legal Entity:** AvaCode Solutions LLC-FZ
 **Registered in:** Meydan Free Zone, Dubai, UAE
 **Contact:** legal@inboxacademy.io
@@ -35,7 +35,7 @@ These Terms apply to your use of the Platform as a Course Provider. They do not 
 
 ## 3. Description of Service
 
-InboxAcademy is a platform that enables Organizations to create and manage Courses and to deliver them to Learners by email. Depending on your Subscription plan, the Platform may also provide newsletter creation and delivery, learner and course analytics, AI-assisted content tools, an optional inbound mailbox integration for command-based enrollment, Google Workspace group enrollment, and programmatic API access.
+InboxAcademy is a platform that enables Organizations to create and manage Courses and to deliver them to Learners by email. Depending on your Subscription plan, the Platform may also provide newsletter creation and delivery, learner and course analytics, AI-assisted content tools, the ability to connect a third-party AI assistant or agent to your Content through our Model Context Protocol (MCP) service, an optional inbound mailbox integration for command-based enrollment, Google Workspace group enrollment, and programmatic API access.
 
 Unless you disable it for a given Course, the Platform will offer Learners who complete that Course the option to claim a digital certificate of completion. Each certificate displays the Learner's name, the Course name, your Organization's name and logo (where provided), and the date of issue, and has its own public verification page, accessible via a unique link and QR code, that anyone with the link can use to confirm the certificate's authenticity.
 
@@ -160,15 +160,33 @@ We rely on the following third-party services to operate the Platform:
 
 We may add or change subprocessors from time to time in order to operate and improve the Platform. Where a change materially affects how your data is processed, we shall provide reasonable notice.
 
+Third-party AI assistants or agents that you connect to your Content through our MCP service (see Section 12) are not subprocessors. They are services that you select and control, and we do not engage them on your behalf.
+
 ---
 
-## 12. AI-Assisted Features
+## 12. AI-Assisted Features and AI Connections
+
+### 12.1 AI-assisted authoring features
 
 Certain plans include AI-assisted features, such as AI quiz generation, AI content editing, or a broader AI assistant, currently powered by OpenAI's API. Where you use these features, the relevant portion of your Content is sent to our AI service provider for processing. We do not permit this data to be used to train third-party models.
 
 We reserve the right to change, add, or remove the AI service provider(s) used to power these features at any time. Where such a change materially affects how your Content is processed, we shall provide reasonable notice.
 
-AI-generated output is provided as a drafting aid only. You are solely responsible for reviewing, editing, and approving any AI-generated Content before it is delivered to Learners, and for ensuring it complies with Section 9.
+### 12.2 AI connections (MCP)
+
+Certain plans also allow any Organization User to connect a third-party AI assistant or agent of your choice to your Content through our Model Context Protocol (MCP) service. A connected client acts within the connecting user's existing role: Admin and Editor users may read and draft Course, lesson, and quiz Content; Instructor and Viewer users may read that Content only. Regardless of role, a connected client cannot access Learner Data, delete Content, change Organization or Course settings, manage Organization Users, or send email. Each connection is scoped to a single Organization, and read and write operations are subject to separate usage limits (see Section 12.4).
+
+You choose and control the client you connect. You are responsible for that client's security, for the conduct of the AI model behind it, and for the credentials and tokens it holds, and your use of it is also governed by that third party's terms. The connection token issued to your chosen client contains the authorizing Organization User's email address, your Organization identifier, and that user's role. Connections are revoked automatically when the authorizing user leaves the Organization, has their role changed, or has their account deactivated, and may be disconnected by the user at any time. Further detail on the data involved is set out in our [Privacy Policy](../privacy-policy.md).
+
+### 12.3 Your responsibility for inputs and outputs
+
+You must have the right to submit any Content you process through AI-assisted features or expose to a connected AI client, and you must not use these features to process unlawful Content or third-party personal data without a lawful basis.
+
+AI-generated output is provided as a drafting aid only. It may be inaccurate, incomplete, or unsuitable, and is provided without warranty as to correctness or fitness for any purpose. Any lesson or quiz generated by an AI-assisted feature or a connected client is created unpublished. You are solely responsible for reviewing, editing, and approving any AI-generated or AI-assisted Content before it is delivered to Learners, and for ensuring it complies with Section 9. As between you and us, AI-generated output forms part of your Content under Section 6, subject to our AI service provider's terms.
+
+### 12.4 Usage limits and acceptable use
+
+AI-assisted features and MCP connections are subject to usage limits. These currently include a per-Organization daily cap on AI quiz generations, and, for MCP connections used during a free trial, separate per-Organization daily caps on read operations and on write operations (a Viewer or Instructor connection consumes only the read allowance). These limits are enforced, are not a billed or paid top-up allowance, and may change without notice. You must not attempt to bypass plan gating, per-Organization scoping, or usage limits, or use these features in an automated or excessive manner that places abusive load on the Platform. We may rate-limit, suspend, or terminate AI-assisted feature or MCP access for an Organization that does so, as set out in Section 15.
 
 ---
 
@@ -250,6 +268,7 @@ Email is currently our only support channel. If you have any questions, complain
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v2.6 (September 2, 2026) Disclosed the ability for any Organization User to connect third-party AI assistants via our Model Context Protocol (MCP) service, acting within their role (read-only for Instructor and Viewer); expanded the AI-Assisted Features section to cover AI connections, input and output responsibilities, ownership of AI-generated output, per-Organization usage limits (including separate read and write caps on trial), and anti-circumvention and acceptable-use rules; clarified that connected AI clients are not subprocessors
 - v2.5 (September 15, 2026) Added right to remove, without prior notice, unpaid Organization accounts with no Content that have been inactive for sixty (60) or more consecutive days
 - v2.4 (September 1, 2026) Removed named Subscription plans in favor of the pricing page, and disclosed that plans may be closed to new signups while existing Subscribers remain on them
 - v2.3 (July 12, 2026) Clarified that newsletter sendout limits are defined by Subscription plan, as described on the pricing page
