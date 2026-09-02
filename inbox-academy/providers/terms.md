@@ -15,7 +15,7 @@ If you are entering into these Terms on behalf of a company or other legal entit
 
 These Terms constitute a legally binding agreement between you and AvaCode Solutions LLC-FZ, the operator of InboxAcademy, registered in Meydan Free Zone, Dubai, UAE.
 
-These Terms apply to your use of the Platform as a Course Provider. They do not govern the rights of your Learners, which are addressed separately in the [InboxAcademy Learner Terms of Service](../learners/terms.md) and the [InboxAcademy Privacy Policy](../privacy-policy.md), both of which you should be familiar with.
+These Terms apply to your use of the Platform as a Course Provider. They do not govern the rights of your Learners, which are addressed separately in the [InboxAcademy Learner Terms of Service](https://inboxacademy.io/learners-terms/) and the [InboxAcademy Privacy Policy](https://inboxacademy.io/privacy/), both of which you should be familiar with.
 
 ---
 
@@ -142,7 +142,7 @@ We shall not sell your Organization's data, your Content, or your Learner Data, 
 - Where you have separately instructed or authorized us to do so; or
 - Where required by law, court order, or a valid request from a competent authority.
 
-We shall not use your Content or Learner Data for any purpose other than providing, maintaining, and improving the Platform's core service to you, and shall not use it to train third-party AI models beyond what is described in Section 12. Further detail on how we handle personal data is set out in our [Privacy Policy](../privacy-policy.md), which forms part of these Terms.
+We shall not use your Content or Learner Data for any purpose other than providing, maintaining, and improving the Platform's core service to you, and shall not use it to train third-party AI models beyond what is described in Section 12. Further detail on how we handle personal data is set out in our [Privacy Policy](https://inboxacademy.io/privacy/), which forms part of these Terms.
 
 ---
 
@@ -176,7 +176,7 @@ We reserve the right to change, add, or remove the AI service provider(s) used t
 
 Certain plans also allow any Organization User to connect a third-party AI assistant or agent of your choice to your Content through our Model Context Protocol (MCP) service. A connected client acts within the connecting user's existing role: Admin and Editor users may read and draft Course, lesson, and quiz Content; Instructor and Viewer users may read that Content only. Regardless of role, a connected client cannot access Learner Data, delete Content, change Organization or Course settings, manage Organization Users, or send email. Each connection is scoped to a single Organization, and read and write operations are subject to separate usage limits (see Section 12.4).
 
-You choose and control the client you connect. You are responsible for that client's security, for the conduct of the AI model behind it, and for the credentials and tokens it holds, and your use of it is also governed by that third party's terms. The connection token issued to your chosen client contains the authorizing Organization User's email address, your Organization identifier, and that user's role. Connections are revoked automatically when the authorizing user leaves the Organization, has their role changed, or has their account deactivated, and may be disconnected by the user at any time. Further detail on the data involved is set out in our [Privacy Policy](../privacy-policy.md).
+You choose and control the client you connect. You are responsible for that client's security, for the conduct of the AI model behind it, and for the credentials and tokens it holds, and your use of it is also governed by that third party's terms. The connection token issued to your chosen client contains the authorizing Organization User's email address, your Organization identifier, and that user's role. Connections are revoked automatically when the authorizing user leaves the Organization, has their role changed, or has their account deactivated, and may be disconnected by the user at any time. Further detail on the data involved is set out in our [Privacy Policy](https://inboxacademy.io/privacy/).
 
 ### 12.3 Your responsibility for inputs and outputs
 
