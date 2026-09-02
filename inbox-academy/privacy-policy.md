@@ -1,6 +1,6 @@
 # InboxAcademy — Privacy Policy
 
-**Effective Date:** August 20, 2026
+**Effective Date:** September 2, 2026
 **Legal Entity:** AvaCode Solutions LLC-FZ
 **Registered in:** Meydan Free Zone, Dubai, UAE
 **Data Hosting:** Google Cloud Platform — EU Region
@@ -76,6 +76,18 @@ Your IP address is also used to determine your approximate country of residence 
 
 For details on how analytics cookies are managed and how to opt out, see Section 4.
 
+### 3.5 Organization AI Connections (MCP)
+
+If your Subscription plan allows it, any Organization User may connect a third-party AI assistant or agent of your choice to your Organization's Course content using our Model Context Protocol (MCP) service. This is an author-side feature. A connected client, and the AI model behind it, acts within that user's existing role: Admin and Editor users can read and draft Course, lesson, and quiz content, while Instructor and Viewer users can read that content only. Regardless of role, a connected client cannot access Learner identities, Learner email addresses, enrollment or progress data, or newsletter subscriber lists, and it cannot delete content, change settings, manage Organization Users, or send email.
+
+When you authorize such a connection, we process:
+
+- The authorizing Organization User's email address, your Organization identifier, that user's role, and the permissions granted. These are included in the short-lived access tokens issued to your chosen client and held by that client; we do not store these access tokens on our servers.
+- Authorization and refresh-token records, stored only in hashed form and linked to the user's account by an internal identifier.
+- Per-Organization, per-day counts of the number of tool calls made through the connection (numbers only, with no content).
+
+Access tokens expire within 10 minutes. Refresh tokens expire after 30 days and are revoked automatically when the authorizing user leaves the Organization, has their role changed, or has their account deactivated; the user may also disconnect the client at any time. Content that a connected client reads or drafts is processed by that third-party client and its AI provider under their own terms and privacy policy. You choose and control the client you connect, and you are responsible for its security and for the credentials and tokens it holds.
+
 ---
 
 ## 4. Cookies
@@ -117,7 +129,8 @@ We use the data we collect to:
 - Process Subscription payments and manage billing via Stripe.
 - Deliver course content and personalized learning experiences to Learners.
 - Generate and issue verifiable certificates of completion.
-- Process AI feature requests via third-party AI providers (e.g., OpenAI) for quiz generation and content editing.
+- Provide AI-assisted authoring features that generate or edit Course content at a Course Provider's request, including by sending the relevant Course, lesson, or quiz content to our AI sub-processor (currently OpenAI) for processing.
+- Enforce per-Organization usage limits on AI-assisted authoring features and MCP connections, using per-Organization, per-day counters that hold numbers only and no content.
 - Communicate with Course Providers regarding account updates, billing, and service changes.
 - Send Course Providers product tips, onboarding guidance, and other engagement communications about the Platform.
 - Analyze website traffic and usage patterns via Google Analytics.
@@ -125,6 +138,8 @@ We use the data we collect to:
 - Comply with applicable legal obligations.
 
 Product tips, onboarding guidance, and other engagement communications are optional. Every such email includes an unsubscribe link, and you may opt out at any time without affecting delivery of account, billing, or service-related emails.
+
+AI-assisted authoring features (including AI quiz generation and AI content editing) send the specific Course, lesson, or quiz content you submit for processing to our AI sub-processor. This content is free-form and may contain personal data you choose to include. You should not submit personal data through these features, or expose it to a connected AI client, that you do not want processed by our AI sub-processor or by the client you have connected. AI-assisted authoring features and MCP connections do not read Learner identities, Learner email addresses, enrollment or progress data, or newsletter subscriber lists.
 
 ---
 
@@ -148,7 +163,8 @@ We do not sell your personal data. We share data with the following trusted thir
 - **Stripe:** For payment processing. Stripe's Privacy Policy applies to data processed by Stripe.
 - **Google Cloud Platform (GCP — EU Region):** For hosting, data storage, and infrastructure.
 - **Google Analytics:** For website usage analysis (anonymized where possible).
-- **OpenAI:** For AI-powered features. Input content used for AI processing is subject to OpenAI's usage policies. We do not permit OpenAI to use your data for model training.
+- **OpenAI:** For AI-powered authoring features (quiz generation and content editing). The Course, lesson, or quiz content submitted for processing, and the generated output, are handled by OpenAI and processed primarily in the United States (see Section 13). Input content used for AI processing is subject to OpenAI's usage policies. We do not permit OpenAI to use your data for model training.
+- **Third-party AI clients you connect (MCP):** If you connect a third-party AI assistant or agent to your Organization's content through our MCP service, the content that client reads or drafts, and the connection token containing the authorizing user's email address, are handled by that client and its AI provider under their own terms. You choose and control these clients; we do not select them on your behalf.
 - **Google Workspace (OAuth):** If you connect your Google Workspace for group enrollment, we access only the data scopes you explicitly authorize.
 - **Google reCAPTCHA Enterprise:** For fraud and bot prevention on our registration form. Data processed by reCAPTCHA is subject to Google's Privacy Policy.
 - **Google and LinkedIn (OAuth):** For account sign-in, if you choose to register or sign in using your Google or LinkedIn account. Data processed as part of this sign-in is subject to the respective provider's own privacy policy.
@@ -175,6 +191,8 @@ We retain personal data for as long as necessary to provide the Platform service
 - **Learner data** (email address, progress, quiz responses, and assignment submissions) is retained for as long as the Course Provider's account is active or as otherwise instructed by the Course Provider. Learners may unsubscribe from a course at any time via the unsubscribe link provided in their lesson emails. Unsubscribing stops future lesson delivery but is not equivalent to a data deletion request — previously submitted data including quiz responses, assignment submissions, and course progress will remain accessible to the Course Provider through the Platform. To request full deletion of your data, please contact us at legal@inboxacademy.io.
 - **Newsletter subscriber data** (email address) is retained for as long as the Course Provider's account is active or as otherwise instructed by the Course Provider. Subscribers may unsubscribe from a newsletter at any time via the unsubscribe link provided in newsletter emails. Unsubscribing stops future newsletter sendouts but is not equivalent to a data deletion request, and is separate from unsubscribing from any course. To request full deletion of your data, please contact us at legal@inboxacademy.io.
 - **Website analytics data** is retained in accordance with Google Analytics default retention settings (up to 14 months).
+- **MCP connection data** is retained only as long as needed to operate the connection. Access tokens are not stored; those issued for interactive connections expire within 10 minutes, and those issued for AI quiz generation expire within 1 hour. Refresh tokens are stored in hashed form for up to 30 days, or until revoked on Organization-leave, role change, or account deactivation. Authorization codes are stored in hashed form, are single-use, and expire within approximately 60 seconds. Registered MCP client details and per-Organization daily usage counters (numbers only, no content) are retained for the life of the Organization's account.
+- **MCP service operational logs** are retained by Google Cloud Logging in accordance with its default bucket retention (approximately 30 days) unless we configure a different period. These logs record operational events and errors and may incidentally include fragments of a failed request's input; full lesson content is not deliberately logged.
 - **Billing records** are retained for a minimum of 5 years as required for financial compliance.
 
 ---
@@ -182,6 +200,8 @@ We retain personal data for as long as necessary to provide the Platform service
 ## 10. Data Security
 
 All data is hosted on Google Cloud Platform in the EU region. We implement appropriate technical and organizational security measures to protect your personal data, including encryption in transit (TLS) and access controls.
+
+For AI-assisted authoring features and MCP connections, we additionally enforce: per-Organization isolation on every request, so content belonging to another Organization is indistinguishable from content that does not exist; role-based read and write permissions mirroring those in the web app; authorization using OAuth 2.1 with PKCE and exact redirect-URI matching; short-lived access tokens and hashed refresh tokens that are automatically revoked on Organization membership, role, or account changes; plan-based access gating with usage rate limits; and a human-in-the-loop requirement, meaning any lesson or quiz generated by an AI feature or MCP client is created unpublished and must be published by a person in the web app.
 
 While we take data security seriously, no system can be guaranteed to be 100% secure. In the event of a data breach that poses a risk to your rights and freedoms, we will notify affected parties and relevant authorities in accordance with applicable law.
 
@@ -212,6 +232,8 @@ All personal data collected through the Platform is primarily hosted on Google C
 
 Where data is processed by third-party providers such as OpenAI, those transfers are governed by the provider's own Data Processing Agreement (DPA) and appropriate safeguards, including Standard Contractual Clauses (SCCs) approved by the European Commission where applicable. InboxAcademy takes reasonable steps to minimize the transfer of personal data outside the EEA, including where available using EU-region endpoints provided by third-party services.
 
+Our MCP service, which supports AI connections for content authoring, is hosted in the European Union (Netherlands). Course, lesson, and quiz content processed by our AI sub-processor for AI-assisted authoring features is processed primarily in the United States, subject to the safeguards described above.
+
 Regardless of where you are located, your personal data, including billing data processed via Stripe, may be transferred to, processed in, and stored in countries other than your own, including the United States and other jurisdictions in which InboxAcademy or its service providers operate. By using the Platform, you acknowledge and agree to this transfer, processing, and storage of your personal data outside of your country of residence.
 
 ---
@@ -237,6 +259,7 @@ Email is currently our only support channel. For any questions, concerns, compla
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v1.6 (September 2, 2026) Disclosed AI-assisted authoring features, per-Organization AI usage limits, and Organization AI connections via our Model Context Protocol (MCP) service (available to any Organization User, acting within their role, and read-only for Instructor and Viewer users), including the connection data processed, its retention, the security controls applied, and that connected third-party AI clients are chosen and controlled by the Course Provider
 - v1.5 (August 20, 2026) Disclosed that we may send Course Providers product tips, onboarding guidance, and other engagement communications about the Platform
 - v1.4 (July 12, 2026) Disclosed that Organization and Course public visibility is on by default, and that public information may be featured elsewhere on the Platform or website
 - v1.3 (July 11, 2026) Disclosed certificate data, Organization User and content image public accessibility, Google/LinkedIn sign-in data, Google Limited Use policy adherence, LinkedIn subprocessor, newsletter unsubscribe, cross-border data transfers, and clarified support contact
