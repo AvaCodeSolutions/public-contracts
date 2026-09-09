@@ -72,7 +72,9 @@ If you claim a certificate of completion, it displays your name, the course name
 
 When you visit our website, we collect usage and behavioral data including pages visited, session duration, device type, approximate location, IP address, browser type, and referring URL. This data is collected via Google Analytics 4 (GA4).
 
-We also use the Meta Pixel on our public website to measure the effectiveness of our advertising on Meta's platforms (Facebook and Instagram). Where you have consented, the pixel records page views on our public pages and sends Meta your IP address, browser and device information, the page you are viewing, and identifiers held in Meta cookies, which Meta may use to link that visit to a Meta account. The pixel runs only on our public website pages, and only while you are not signed in to a Platform account; it is not active anywhere inside the Platform.
+We also use the Meta Pixel on our public website to measure the effectiveness of our advertising on Meta's platforms (Facebook and Instagram). Where you have consented, the pixel records page views on our public pages and sends Meta your IP address, browser and device information, the page you are viewing, and identifiers held in Meta cookies, which Meta may use to link that visit to a Meta account. Besides page views, the pixel records two events during registration, where you have consented: one when you submit the registration form and we send your verification email, and one when you click that link and your account becomes active. Both record that a registration reached that stage; neither sends Meta the contents of the form.
+
+The pixel runs on our public website pages, and it is not active anywhere inside the Platform. It runs only while you are not signed in to a Platform account, with one exception: the short confirmation page shown immediately after you verify your email address, which you reach already signed in and which is where the completed registration is recorded. Once you leave that page for the Platform itself, the pixel does not follow you.
 
 Your IP address is also used to determine your approximate country of residence via IP geolocation. This is used solely to decide whether to display a cookie consent banner, in accordance with applicable privacy regulations. No additional personal data is collected or stored as part of this process.
 
@@ -102,7 +104,7 @@ We also use Google reCAPTCHA Enterprise on our registration form to detect and p
 
 ### 4.2 Analytics and Advertising Cookies (Website Only)
 
-Our public website uses two non-essential tools: Google Analytics, to understand how visitors interact with our site, and the Meta Pixel, to measure the effectiveness of our advertising on Meta's platforms. Neither is used anywhere inside the Platform itself, and neither runs while you are signed in to a Platform account.
+Our public website uses two non-essential tools: Google Analytics, to understand how visitors interact with our site, and the Meta Pixel, to measure the effectiveness of our advertising on Meta's platforms. Neither is used anywhere inside the Platform itself. Neither runs while you are signed in to a Platform account, apart from the confirmation page shown immediately after email verification, described in Section 3.4.
 
 Both are governed by a single consent choice, and both load in an inactive state on every visit: Google Analytics loads with consent denied, and the Meta Pixel loads with consent revoked. Neither sets its cookies or records your visit until you actively accept.
 
@@ -127,7 +129,7 @@ Regardless of where you live, you have full control over your data:
 
 Where you have consented, the Meta Pixel described above sets advertising cookies. Meta acts as an independent controller for the data it receives through the pixel and may use it to measure and improve the performance of our advertising, and to build audiences for advertising on its platforms, in accordance with its own policies.
 
-The pixel records page views on our public website only. We do not use it to collect Learner course data, quiz responses, assignment submissions, or any Platform account activity, and we do not run it on pages seen by signed-in users. We do not sell your data to third parties for marketing purposes.
+The pixel records page views on our public website, and the two registration events described in Section 3.4. We do not use it to collect Learner course data, quiz responses, assignment submissions, or any Platform account activity, and beyond the confirmation page named in Section 3.4 we do not run it on pages seen by signed-in users. We do not sell your data to third parties for marketing purposes.
 
 ---
 
@@ -274,6 +276,7 @@ Email is currently our only support channel. For any questions, concerns, compla
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v1.8 (September 9, 2026) Disclosed the two registration events the Meta Pixel records (verification email sent, and email verified), and corrected the statement that the pixel never runs for signed-in users: it also runs on the confirmation page shown immediately after email verification, which is reached already signed in
 - v1.7 (September 9, 2026) Disclosed use of the Meta Pixel on the public website for advertising measurement, the data it sends to Meta, Meta as a subprocessor and independent controller, the transfer of that data outside the EEA, and that a single consent choice governs both the pixel and Google Analytics with both inactive until consent is given; replaced the previous statement that no advertising cookies are used. Consent given before this version covered Google Analytics alone and has been discarded, so visitors are asked again; previous refusals are carried forward
 - v1.6 (September 2, 2026) Disclosed AI-assisted authoring features, per-Organization AI usage limits, and Organization AI connections via our Model Context Protocol (MCP) service (available to any Organization User, acting within their role, and read-only for Instructor and Viewer users), including the connection data processed, its retention, the security controls applied, and that connected third-party AI clients are chosen and controlled by the Course Provider
 - v1.5 (August 20, 2026) Disclosed that we may send Course Providers product tips, onboarding guidance, and other engagement communications about the Platform
