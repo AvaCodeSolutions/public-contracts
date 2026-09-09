@@ -1,6 +1,6 @@
 # InboxAcademy — Privacy Policy
 
-**Effective Date:** September 2, 2026
+**Effective Date:** September 9, 2026
 **Legal Entity:** AvaCode Solutions LLC-FZ
 **Registered in:** Meydan Free Zone, Dubai, UAE
 **Data Hosting:** Google Cloud Platform — EU Region
@@ -72,9 +72,11 @@ If you claim a certificate of completion, it displays your name, the course name
 
 When you visit our website, we collect usage and behavioral data including pages visited, session duration, device type, approximate location, IP address, browser type, and referring URL. This data is collected via Google Analytics 4 (GA4).
 
+We also use the Meta Pixel on our public website to measure the effectiveness of our advertising on Meta's platforms (Facebook and Instagram). Where you have consented, the pixel records page views on our public pages and sends Meta your IP address, browser and device information, the page you are viewing, and identifiers held in Meta cookies, which Meta may use to link that visit to a Meta account. The pixel runs only on our public website pages, and only while you are not signed in to a Platform account; it is not active anywhere inside the Platform.
+
 Your IP address is also used to determine your approximate country of residence via IP geolocation. This is used solely to decide whether to display a cookie consent banner, in accordance with applicable privacy regulations. No additional personal data is collected or stored as part of this process.
 
-For details on how analytics cookies are managed and how to opt out, see Section 4.
+For details on how analytics and advertising cookies are managed and how to opt out, see Section 4.
 
 ### 3.5 Organization AI Connections (MCP)
 
@@ -98,26 +100,34 @@ The Platform uses strictly necessary cookies essential for the operation of the 
 
 We also use Google reCAPTCHA Enterprise on our registration form to detect and prevent fraudulent or automated sign-ups. reCAPTCHA may set cookies and collect device and interaction data as part of this process. This data is processed by Google in accordance with the [Google Privacy & Terms](https://policies.google.com/privacy).
 
-### 4.2 Analytics Cookies (Website Only)
+### 4.2 Analytics and Advertising Cookies (Website Only)
 
-Our public website uses Google Analytics to understand how visitors interact with our site. Our approach to your privacy depends on your location:
+Our public website uses two non-essential tools: Google Analytics, to understand how visitors interact with our site, and the Meta Pixel, to measure the effectiveness of our advertising on Meta's platforms. Neither is used anywhere inside the Platform itself, and neither runs while you are signed in to a Platform account.
 
-- **For visitors in the EU, UK, and Switzerland:** We operate on an opt-in basis. We will not activate Google Analytics cookies unless you provide explicit consent via our cookie banner.
-- **For visitors in other regions:** We use Google Analytics to improve our services. By using our site, you agree to this processing, though you may opt out at any time.
+Both are governed by a single consent choice, and both load in an inactive state on every visit: Google Analytics loads with consent denied, and the Meta Pixel loads with consent revoked. Neither sets its cookies or records your visit until you actively accept.
+
+- **For visitors in the EU, UK, and Switzerland:** We operate on an opt-in basis. We display a cookie banner, and neither tool is activated unless you give explicit consent through it.
+- **For visitors in other regions:** We do not display the banner, and both tools therefore remain inactive unless you choose to enable them through Cookie Settings.
+
+Your choice is stored in a cookie on your browser and applies to both tools together; you cannot accept one and decline the other.
+
+When the tools covered by this choice change, any consent previously given no longer covers the new set, so it is discarded and the banner asks again. This happened with the introduction of the Meta Pixel in v1.7 of this Policy: consent given before that date covered Google Analytics alone and was not carried over. A previous refusal is carried forward rather than re-asked.
 
 #### How to manage your preferences (All Users)
 
 Regardless of where you live, you have full control over your data:
 
-**On this site:** You can instantly change your preferences or withdraw consent by clicking [Cookie Settings](https://inboxacademy.io/privacy/cookie-settings).
+**On this site:** You can instantly change your preferences or withdraw consent by clicking [Cookie Settings](https://inboxacademy.io/privacy/cookie-settings). Withdrawing consent revokes it with both Google Analytics and the Meta Pixel immediately.
 
-**Globally:** You can permanently prevent Google Analytics from using your data on any website by installing the Google Analytics Opt-out Browser Add-on.
+**Globally:** You can permanently prevent Google Analytics from using your data on any website by installing the Google Analytics Opt-out Browser Add-on. You can control how Meta uses data collected about your activity on other websites through the ad settings of your Meta account, and through Meta's [Off-Facebook Activity](https://www.facebook.com/off_facebook_activity) tools.
 
-**More Info:** For details on how Google handles your data, please see the [Google Privacy & Terms](https://policies.google.com/privacy).
+**More Info:** For details on how Google handles your data, please see the [Google Privacy & Terms](https://policies.google.com/privacy). For details on how Meta handles data collected by the pixel, please see the [Meta Privacy Policy](https://www.facebook.com/privacy/policy) and Meta's [Cookies Policy](https://www.facebook.com/privacy/policies/cookies).
 
-### 4.3 No Advertising Cookies
+### 4.3 Advertising Cookies
 
-InboxAcademy does not use advertising or tracking cookies for targeted advertising purposes. We do not sell your data to third parties for marketing purposes.
+Where you have consented, the Meta Pixel described above sets advertising cookies. Meta acts as an independent controller for the data it receives through the pixel and may use it to measure and improve the performance of our advertising, and to build audiences for advertising on its platforms, in accordance with its own policies.
+
+The pixel records page views on our public website only. We do not use it to collect Learner course data, quiz responses, assignment submissions, or any Platform account activity, and we do not run it on pages seen by signed-in users. We do not sell your data to third parties for marketing purposes.
 
 ---
 
@@ -134,6 +144,7 @@ We use the data we collect to:
 - Communicate with Course Providers regarding account updates, billing, and service changes.
 - Send Course Providers product tips, onboarding guidance, and other engagement communications about the Platform.
 - Analyze website traffic and usage patterns via Google Analytics.
+- Measure the effectiveness of our advertising on Meta's platforms via the Meta Pixel, where you have consented.
 - Detect, investigate, and prevent fraudulent or abusive use of the Platform.
 - Comply with applicable legal obligations.
 
@@ -149,7 +160,7 @@ For users located in the European Economic Area (EEA) or the United Kingdom, we 
 
 - **Contract Performance:** Processing necessary to provide the Platform services under your Subscription or enrollment agreement.
 - **Legitimate Interests:** Analytics, fraud prevention, and service improvement, where such interests are not overridden by your rights.
-- **Consent:** For non-essential analytics cookies on our website.
+- **Consent:** For non-essential analytics and advertising cookies on our website, including Google Analytics and the Meta Pixel.
 - **Legal Obligation:** Where processing is required to comply with applicable laws.
 
 Regardless of your location, InboxAcademy is committed to handling all personal data with care and transparency in accordance with this Privacy Policy.
@@ -163,6 +174,7 @@ We do not sell your personal data. We share data with the following trusted thir
 - **Stripe:** For payment processing. Stripe's Privacy Policy applies to data processed by Stripe.
 - **Google Cloud Platform (GCP — EU Region):** For hosting, data storage, and infrastructure.
 - **Google Analytics:** For website usage analysis (anonymized where possible).
+- **Meta Platforms:** For advertising measurement via the Meta Pixel on our public website, where you have consented. Meta acts as an independent controller for this data and processes it under its own privacy policy, primarily outside the EEA (see Section 13).
 - **OpenAI:** For AI-powered authoring features (quiz generation and content editing). The Course, lesson, or quiz content submitted for processing, and the generated output, are handled by OpenAI and processed primarily in the United States (see Section 13). Input content used for AI processing is subject to OpenAI's usage policies. We do not permit OpenAI to use your data for model training.
 - **Third-party AI clients you connect (MCP):** If you connect a third-party AI assistant or agent to your Organization's content through our MCP service, the content that client reads or drafts, and the connection token containing the authorizing user's email address, are handled by that client and its AI provider under their own terms. You choose and control these clients; we do not select them on your behalf.
 - **Google Workspace (OAuth):** If you connect your Google Workspace for group enrollment, we access only the data scopes you explicitly authorize.
@@ -191,6 +203,7 @@ We retain personal data for as long as necessary to provide the Platform service
 - **Learner data** (email address, progress, quiz responses, and assignment submissions) is retained for as long as the Course Provider's account is active or as otherwise instructed by the Course Provider. Learners may unsubscribe from a course at any time via the unsubscribe link provided in their lesson emails. Unsubscribing stops future lesson delivery but is not equivalent to a data deletion request — previously submitted data including quiz responses, assignment submissions, and course progress will remain accessible to the Course Provider through the Platform. To request full deletion of your data, please contact us at legal@inboxacademy.io.
 - **Newsletter subscriber data** (email address) is retained for as long as the Course Provider's account is active or as otherwise instructed by the Course Provider. Subscribers may unsubscribe from a newsletter at any time via the unsubscribe link provided in newsletter emails. Unsubscribing stops future newsletter sendouts but is not equivalent to a data deletion request, and is separate from unsubscribing from any course. To request full deletion of your data, please contact us at legal@inboxacademy.io.
 - **Website analytics data** is retained in accordance with Google Analytics default retention settings (up to 14 months).
+- **Meta Pixel data** is retained by Meta under its own retention policies, over which we have no control. We do not store pixel data on our own systems.
 - **MCP connection data** is retained only as long as needed to operate the connection. Access tokens are not stored; those issued for interactive connections expire within 10 minutes, and those issued for AI quiz generation expire within 1 hour. Refresh tokens are stored in hashed form for up to 30 days, or until revoked on Organization-leave, role change, or account deactivation. Authorization codes are stored in hashed form, are single-use, and expire within approximately 60 seconds. Registered MCP client details and per-Organization daily usage counters (numbers only, no content) are retained for the life of the Organization's account.
 - **MCP service operational logs** are retained by Google Cloud Logging in accordance with its default bucket retention (approximately 30 days) unless we configure a different period. These logs record operational events and errors and may incidentally include fragments of a failed request's input; full lesson content is not deliberately logged.
 - **Billing records** are retained for a minimum of 5 years as required for financial compliance.
@@ -232,6 +245,8 @@ All personal data collected through the Platform is primarily hosted on Google C
 
 Where data is processed by third-party providers such as OpenAI, those transfers are governed by the provider's own Data Processing Agreement (DPA) and appropriate safeguards, including Standard Contractual Clauses (SCCs) approved by the European Commission where applicable. InboxAcademy takes reasonable steps to minimize the transfer of personal data outside the EEA, including where available using EU-region endpoints provided by third-party services.
 
+Data collected by the Meta Pixel, where you have consented to it, is transferred to and processed by Meta Platforms outside the EEA, including in the United States, under Meta's own transfer safeguards. You can prevent this transfer entirely by declining or withdrawing consent in [Cookie Settings](https://inboxacademy.io/privacy/cookie-settings).
+
 Our MCP service, which supports AI connections for content authoring, is hosted in the European Union (Netherlands). Course, lesson, and quiz content processed by our AI sub-processor for AI-assisted authoring features is processed primarily in the United States, subject to the safeguards described above.
 
 Regardless of where you are located, your personal data, including billing data processed via Stripe, may be transferred to, processed in, and stored in countries other than your own, including the United States and other jurisdictions in which InboxAcademy or its service providers operate. By using the Platform, you acknowledge and agree to this transfer, processing, and storage of your personal data outside of your country of residence.
@@ -259,6 +274,7 @@ Email is currently our only support channel. For any questions, concerns, compla
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v1.7 (September 9, 2026) Disclosed use of the Meta Pixel on the public website for advertising measurement, the data it sends to Meta, Meta as a subprocessor and independent controller, the transfer of that data outside the EEA, and that a single consent choice governs both the pixel and Google Analytics with both inactive until consent is given; replaced the previous statement that no advertising cookies are used. Consent given before this version covered Google Analytics alone and has been discarded, so visitors are asked again; previous refusals are carried forward
 - v1.6 (September 2, 2026) Disclosed AI-assisted authoring features, per-Organization AI usage limits, and Organization AI connections via our Model Context Protocol (MCP) service (available to any Organization User, acting within their role, and read-only for Instructor and Viewer users), including the connection data processed, its retention, the security controls applied, and that connected third-party AI clients are chosen and controlled by the Course Provider
 - v1.5 (August 20, 2026) Disclosed that we may send Course Providers product tips, onboarding guidance, and other engagement communications about the Platform
 - v1.4 (July 12, 2026) Disclosed that Organization and Course public visibility is on by default, and that public information may be featured elsewhere on the Platform or website
