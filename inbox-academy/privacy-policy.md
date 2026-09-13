@@ -1,6 +1,6 @@
 # InboxAcademy — Privacy Policy
 
-**Effective Date:** September 9, 2026
+**Effective Date:** September 13, 2026
 **Legal Entity:** AvaCode Solutions LLC-FZ
 **Registered in:** Meydan Free Zone, Dubai, UAE
 **Data Hosting:** Google Cloud Platform — EU Region
@@ -21,7 +21,7 @@ InboxAcademy is operated by AvaCode Solutions LLC-FZ, registered in Meydan Free 
 This Privacy Policy applies to:
 
 - **Course Providers** — organizations or individuals who create accounts and use the Platform to deliver courses.
-- **Learners** — individuals who receive course content via email and interact with personalized course links.
+- **Learners** — individuals who receive course content via email and interact with personalized course links, and individuals who subscribe to a Course Provider's newsletter.
 - **Visitors** — anyone who visits our website at https://inboxacademy.io.
 
 ---
@@ -65,6 +65,8 @@ Learners do not create accounts on InboxAcademy. We collect the following data e
 Personalized content is delivered via secure, time-limited JWT token links. No password or account login is required for Learners.
 
 Quiz responses and assignment submissions are shared with the relevant Course Provider through the Platform so they can deliver, assess, and manage the course.
+
+If you subscribe to a Course Provider's newsletter, either through a subscription form on the Course Provider's public page or website, or by opting in when you enroll in a course, we collect your email address and whether you have confirmed your subscription. A subscription made through a subscription form is confirmed only once you click the link in the confirmation email we send you; a subscription made when you enroll in a course is confirmed when your enrollment is verified. Newsletter sendouts are delivered to you only once your subscription is confirmed. The Course Provider can view and export its list of subscribers, including each subscriber's email address and confirmation status.
 
 If you claim a certificate of completion, it displays your name, the course name, the Course Provider's organization name and logo (where provided), and the date of issue. Each certificate has its own public verification page, accessible via a unique link and QR code, that anyone with the link can use to confirm the certificate's authenticity. This verification page is public and is not subject to the same access restrictions as your other course data.
 
@@ -140,6 +142,7 @@ We use the data we collect to:
 - Provide, operate, and improve the Platform and its features.
 - Process Subscription payments and manage billing via Stripe.
 - Deliver course content and personalized learning experiences to Learners.
+- Deliver newsletter sendouts to Learners who have confirmed their newsletter subscription.
 - Generate and issue verifiable certificates of completion.
 - Provide AI-assisted authoring features that generate or edit Course content at a Course Provider's request, including by sending the relevant Course, lesson, or quiz content to our AI sub-processor (currently OpenAI) for processing.
 - Enforce per-Organization usage limits on AI-assisted authoring features and MCP connections, using per-Organization, per-day counters that hold numbers only and no content.
@@ -162,7 +165,7 @@ For users located in the European Economic Area (EEA) or the United Kingdom, we 
 
 - **Contract Performance:** Processing necessary to provide the Platform services under your Subscription or enrollment agreement.
 - **Legitimate Interests:** Analytics, fraud prevention, and service improvement, where such interests are not overridden by your rights.
-- **Consent:** For non-essential analytics and advertising cookies on our website, including Google Analytics and the Meta Pixel.
+- **Consent:** For non-essential analytics and advertising cookies on our website, including Google Analytics and the Meta Pixel, and for newsletter subscriptions, which you may withdraw at any time by unsubscribing.
 - **Legal Obligation:** Where processing is required to comply with applicable laws.
 
 Regardless of your location, InboxAcademy is committed to handling all personal data with care and transparency in accordance with this Privacy Policy.
@@ -191,7 +194,9 @@ We may also disclose your data where required by law, court order, or to protect
 
 As a Learner, your email address is collected either when you self-enroll or when a Course Provider enrolls you. If you self-enroll, your email address will be shared with the Course Provider of that course so they can deliver and manage the course you are enrolled in.
 
-Neither InboxAcademy nor Course Providers may use Learner email addresses for any purpose unrelated to the delivery of the specific course the Learner is enrolled in. This includes, but is not limited to, marketing communications, third-party data sharing, or any other non-educational use. Course Providers are contractually bound to this restriction through their agreement with InboxAcademy.
+If you subscribe to a Course Provider's newsletter, your email address is shared with that Course Provider so they can deliver and manage that newsletter, as described in Section 3.3.
+
+Neither InboxAcademy nor Course Providers may use Learner email addresses for any purpose unrelated to the delivery of the specific course the Learner is enrolled in, or the specific newsletter the Learner has subscribed to. This includes, but is not limited to, marketing communications unrelated to that course or newsletter, third-party data sharing, or any other unrelated use. Subscribing to one newsletter does not permit a Course Provider to use your email address for its other newsletters or courses. Course Providers are contractually bound to this restriction through their agreement with InboxAcademy.
 
 Learner email addresses will not be sold or shared with any third party, except where required by law or where disclosure is requested by a competent legal authority.
 
@@ -259,7 +264,7 @@ Regardless of where you are located, your personal data, including billing data 
 
 We may update this Privacy Policy from time to time. Material changes will be communicated to registered Course Providers via email at least 14 days before they take effect. The "Effective Date" at the top of this document reflects the date of the most recent revision. Continued use of the Platform after the effective date constitutes acceptance of the updated Policy.
 
-By registering as a Course Provider, you agree to this Privacy Policy as part of your acceptance of the InboxAcademy Terms of Service. By enrolling in a course — whether through self-enrollment or via a Course Provider — Learners acknowledge that their data will be processed in accordance with this Privacy Policy. Where Learners are enrolled by a Course Provider, the Course Provider is responsible for ensuring that their Learners are made aware of this Privacy Policy prior to or at the time of enrollment.
+By registering as a Course Provider, you agree to this Privacy Policy as part of your acceptance of the InboxAcademy Terms of Service. By enrolling in a course — whether through self-enrollment or via a Course Provider — or subscribing to a newsletter, Learners acknowledge that their data will be processed in accordance with this Privacy Policy. Where Learners are enrolled by a Course Provider, the Course Provider is responsible for ensuring that their Learners are made aware of this Privacy Policy prior to or at the time of enrollment.
 
 ---
 
@@ -276,6 +281,7 @@ Email is currently our only support channel. For any questions, concerns, compla
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v1.9 (September 13, 2026) Extended the restriction on use of Learner email addresses to newsletter subscribers, whose email addresses may only be used for the specific newsletter they subscribed to; disclosed how newsletter subscriptions are collected and confirmed, that Course Providers can view and export their subscriber lists, and consent as the legal basis for newsletter subscriptions
 - v1.8 (September 9, 2026) Disclosed the two registration events the Meta Pixel records (verification email sent, and email verified), and corrected the statement that the pixel never runs for signed-in users: it also runs on the confirmation page shown immediately after email verification, which is reached already signed in
 - v1.7 (September 9, 2026) Disclosed use of the Meta Pixel on the public website for advertising measurement, the data it sends to Meta, Meta as a subprocessor and independent controller, the transfer of that data outside the EEA, and that a single consent choice governs both the pixel and Google Analytics with both inactive until consent is given; replaced the previous statement that no advertising cookies are used. Consent given before this version covered Google Analytics alone and has been discarded, so visitors are asked again; previous refusals are carried forward
 - v1.6 (September 2, 2026) Disclosed AI-assisted authoring features, per-Organization AI usage limits, and Organization AI connections via our Model Context Protocol (MCP) service (available to any Organization User, acting within their role, and read-only for Instructor and Viewer users), including the connection data processed, its retention, the security controls applied, and that connected third-party AI clients are chosen and controlled by the Course Provider
