@@ -1,6 +1,6 @@
 # InboxAcademy — Learner Terms of Service
 
-**Effective Date:** April 3, 2026
+**Effective Date:** September 13, 2026
 **Legal Entity:** AvaCode Solutions LLC-FZ
 **Registered in:** Meydan Free Zone, Dubai, UAE
 **Contact:** legal@inboxacademy.io
@@ -19,8 +19,8 @@ These Terms constitute a legally binding agreement between you and AvaCode Solut
 
 - **"Platform"** refers to InboxAcademy, the hosted learning service available at https://inboxacademy.io.
 - **"Course Provider"** refers to the organization or individual who created the course content you receive.
-- **"Learner"** refers to you — an individual enrolled in a course who receives course content via email.
-- **"Content"** refers to any course material, lessons, quizzes, certificates, or other information delivered to you through the Platform.
+- **"Learner"** refers to you — an individual enrolled in a course who receives course content via email, or an individual subscribed to a Course Provider's newsletter.
+- **"Content"** refers to any course material, lessons, quizzes, certificates, newsletters, or other information delivered to you through the Platform.
 - **"We", "Us", or "Our"** refers to AvaCode Solutions LLC-FZ.
 
 ---
@@ -51,7 +51,9 @@ If you believe any Content you have received is harmful, illegal, or in violatio
 
 ## 6. Your Email Address & Privacy
 
-Your email address is used solely to deliver the course you are enrolled in and is not sold or shared with third parties except as required by law. Course Providers are contractually restricted to using your email address only for delivering the course you are enrolled in and may not use it for any other purpose.
+Your email address is used solely to deliver the course you are enrolled in, or the newsletter you have subscribed to, and is not sold or shared with third parties except as required by law. Course Providers are contractually restricted to using your email address only for delivering that specific course or newsletter and may not use it for any other purpose, including for their other newsletters or courses.
+
+Subscribing to a newsletter is always optional, including when you enroll in a course. Newsletter sendouts are delivered to you only once your subscription is confirmed, either by clicking the link in the confirmation email or, if you opted in while enrolling in a course, when your enrollment is verified.
 
 For full details on how we collect, use, and protect your personal data, please refer to our Privacy Policy at [https://inboxacademy.io/privacy](https://inboxacademy.io/privacy).
 
@@ -121,6 +123,7 @@ Email is currently our only support channel. If you have any questions, complain
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v1.3 (September 13, 2026) Extended the Learner definition to newsletter subscribers, and clarified that a subscriber's email address may only be used for the specific newsletter they subscribed to, that subscribing is optional, and that sendouts begin only once the subscription is confirmed
 - v1.2 (July 11, 2026) Clarified certificate claiming and public verification pages, added newsletter unsubscribe details, and clarified support contact
 - v1.1 (July 8, 2026) Spelling updated to American English (non-substantive)
 - v1.0 (April 3, 2026) Initial release
