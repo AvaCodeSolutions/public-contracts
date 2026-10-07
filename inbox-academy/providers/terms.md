@@ -1,6 +1,6 @@
 # InboxAcademy: Course Provider Terms of Service
 
-**Effective Date:** September 2, 2026
+**Effective Date:** October 7, 2026
 **Legal Entity:** AvaCode Solutions LLC-FZ
 **Registered in:** Meydan Free Zone, Dubai, UAE
 **Contact:** legal@inboxacademy.io
@@ -39,7 +39,7 @@ InboxAcademy is a platform that enables Organizations to create and manage Cours
 
 Unless you disable it for a given Course, the Platform will offer Learners who complete that Course the option to claim a digital certificate of completion. Each certificate displays the Learner's name, the Course name, your Organization's name and logo (where provided), and the date of issue, and has its own public verification page, accessible via a unique link and QR code, that anyone with the link can use to confirm the certificate's authenticity.
 
-By default, your Organization and each Course you create are publicly visible, and you may choose to make either private instead. While your Organization is public, we display a public profile page for it (including its name, logo, description, website, and social links, where provided), and while a Course is public, we display a public page for it that anyone can discover and join, including individuals who are not otherwise your Learners. While your Organization or a Course is public, we may also feature its public information elsewhere on the Platform or our website, such as in directories, search results, or promotional placements.
+You may choose whether your Organization and each of your Courses is public or private. While your Organization is public, we display a public profile page for it (including its name, logo, description, website, and social links, where provided), and while a Course is public, we display a public page for it that anyone can discover and join, including individuals who are not otherwise your Learners. While your Organization or a Course is public, we may also feature its public information elsewhere on the Platform or our website, such as in directories, search results, or promotional placements.
 
 We provide the technology that stores, schedules, and delivers your Content. We do not create, author, or take editorial responsibility for your Content, except as set out in Section 9 (Content Policy & Review Rights).
 
@@ -268,6 +268,7 @@ Email is currently our only support channel. If you have any questions, complain
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v2.7 (October 7, 2026) Removed the statement of whether Organizations and Courses are public or private by default; you choose the visibility of each
 - v2.6 (September 2, 2026) Disclosed the ability for any Organization User to connect third-party AI assistants via our Model Context Protocol (MCP) service, acting within their role (read-only for Instructor and Viewer); expanded the AI-Assisted Features section to cover AI connections, input and output responsibilities, ownership of AI-generated output, per-Organization usage limits (including separate read and write caps on trial), and anti-circumvention and acceptable-use rules; clarified that connected AI clients are not subprocessors
 - v2.5 (September 15, 2026) Added right to remove, without prior notice, unpaid Organization accounts with no Content that have been inactive for sixty (60) or more consecutive days
 - v2.4 (September 1, 2026) Removed named Subscription plans in favor of the pricing page, and disclosed that plans may be closed to new signups while existing Subscribers remain on them
