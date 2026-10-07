@@ -1,6 +1,6 @@
 # InboxAcademy — Privacy Policy
 
-**Effective Date:** September 13, 2026
+**Effective Date:** October 7, 2026
 **Legal Entity:** AvaCode Solutions LLC-FZ
 **Registered in:** Meydan Free Zone, Dubai, UAE
 **Data Hosting:** Google Cloud Platform — EU Region
@@ -45,7 +45,7 @@ Unlike Learner profile pictures imported via Google Workspace (see Section 3.2),
 
 If you register or sign in using Google or LinkedIn social sign-in, we collect your name, email address, and profile photo (where available) from that account at the time you register or sign in; we do not access your account again afterward. You may revoke InboxAcademy's access to your Google or LinkedIn account at any time through that provider's own account settings, and you may request deletion of the data we collected from it by contacting us at legal@inboxacademy.io.
 
-By default, a Course Provider's Organization and each Course it creates are publicly visible, unless the Course Provider makes either private instead. The resulting public profile page (Organization name, logo, description, website, and social links, where provided) and/or public Course page is accessible to anyone, including individuals who are not enrolled Learners. While an Organization or Course is public, we may also feature this information elsewhere on the Platform or our website, such as in directories, search results, or promotional placements.
+A Course Provider can choose whether its Organization and each of its Courses is public or private. While an Organization or Course is public, its public profile page (Organization name, logo, description, website, and social links, where provided) and/or public Course page is accessible to anyone, including individuals who are not enrolled Learners. While an Organization or Course is public, we may also feature this information elsewhere on the Platform or our website, such as in directories, search results, or promotional placements.
 
 ### 3.2 Optional Google Workspace OAuth Import
 
@@ -281,6 +281,7 @@ Email is currently our only support channel. For any questions, concerns, compla
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v1.10 (October 7, 2026) Removed the statement of whether Organizations and Courses are public or private by default; Course Providers choose the visibility of each
 - v1.9 (September 13, 2026) Extended the restriction on use of Learner email addresses to newsletter subscribers, whose email addresses may only be used for the specific newsletter they subscribed to; disclosed how newsletter subscriptions are collected and confirmed, that Course Providers can view and export their subscriber lists, and consent as the legal basis for newsletter subscriptions
 - v1.8 (September 9, 2026) Disclosed the two registration events the Meta Pixel records (verification email sent, and email verified), and corrected the statement that the pixel never runs for signed-in users: it also runs on the confirmation page shown immediately after email verification, which is reached already signed in
 - v1.7 (September 9, 2026) Disclosed use of the Meta Pixel on the public website for advertising measurement, the data it sends to Meta, Meta as a subprocessor and independent controller, the transfer of that data outside the EEA, and that a single consent choice governs both the pixel and Google Analytics with both inactive until consent is given; replaced the previous statement that no advertising cookies are used. Consent given before this version covered Google Analytics alone and has been discarded, so visitors are asked again; previous refusals are carried forward
