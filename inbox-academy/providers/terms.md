@@ -1,6 +1,6 @@
 # InboxAcademy: Course Provider Terms of Service
 
-**Effective Date:** October 7, 2026
+**Effective Date:** October 14, 2026
 **Legal Entity:** AvaCode Solutions LLC-FZ
 **Registered in:** Meydan Free Zone, Dubai, UAE
 **Contact:** legal@inboxacademy.io
@@ -29,13 +29,14 @@ These Terms apply to your use of the Platform as a Course Provider. They do not 
 - **"Learner Data"** refers to any data relating to a Learner that you collect, receive, or generate through the Platform, including but not limited to email addresses, profile pictures (where imported via Google Workspace), enrollment status, progress, quiz responses, and assignment submissions.
 - **"Content"** refers to any course material, lesson, quiz, assignment, newsletter, or other material you create, upload, or deliver through the Platform.
 - **"Subscription"** refers to your selected billing plan for use of the Platform.
+- **"Connected Stripe Account"** refers to your Organization's own Stripe account, where you have connected it to the Platform as described in Section 13.
 - **"We", "Us", or "Our"** refers to AvaCode Solutions LLC-FZ.
 
 ---
 
 ## 3. Description of Service
 
-InboxAcademy is a platform that enables Organizations to create and manage Courses and to deliver them to Learners by email. Depending on your Subscription plan, the Platform may also provide newsletter creation and delivery, learner and course analytics, AI-assisted content tools, the ability to connect a third-party AI assistant or agent to your Content through our Model Context Protocol (MCP) service, an optional inbound mailbox integration for command-based enrollment, Google Workspace group enrollment, and programmatic API access.
+InboxAcademy is a platform that enables Organizations to create and manage Courses and to deliver them to Learners by email. Depending on your Subscription plan, the Platform may also provide newsletter creation and delivery, learner and course analytics, AI-assisted content tools, the ability to connect a third-party AI assistant or agent to your Content through our Model Context Protocol (MCP) service, an optional inbound mailbox integration for command-based enrollment, Google Workspace group enrollment, programmatic API access, and the ability to sell access to paid parts of your Courses through your own Connected Stripe Account.
 
 Unless you disable it for a given Course, the Platform will offer Learners who complete that Course the option to claim a digital certificate of completion. Each certificate displays the Learner's name, the Course name, your Organization's name and logo (where provided), and the date of issue, and has its own public verification page, accessible via a unique link and QR code, that anyone with the link can use to confirm the certificate's authenticity.
 
@@ -72,7 +73,7 @@ We may change plan features, limits, and pricing from time to time, with reasona
 
 Paid Subscriptions are billed and managed through Stripe. New paid signups may be eligible for a free trial period of fourteen (14) days, during which no payment method is required. If a trial is not converted to a paid Subscription before it ends, your Subscription shall automatically be paused rather than charged, and you shall lose access to features specific to paid plans until you subscribe. Usage beyond the limits included in your plan (such as additional Learners) may be billed as separate metered overage charges. The number of newsletter sendouts included is defined by your Subscription plan, as described on our pricing page.
 
-You are responsible for keeping your billing information current and for all charges incurred under your Subscription. Except as set out in Section 14 (Service Credit & Refund Policy), fees are non-refundable.
+You are responsible for keeping your billing information current and for all charges incurred under your Subscription. Except as set out in Section 15 (Service Credit & Refund Policy), fees are non-refundable.
 
 You can view invoices, update payment details, and manage or cancel your Subscription at any time via the [Stripe customer portal](https://billing.stripe.com/p/login/6oU28scRQ3M76z35ZMcjS00), or directly on the Platform from the Subscription page under your account menu. When you cancel, your Subscription remains active, and you will retain access to its features, until the end of your current paid billing period. You will not be charged again after that date, and your Subscription will then be paused as described above.
 
@@ -126,11 +127,11 @@ To keep the Platform safe and lawful for Learners and other Course Providers, Co
 - Content that infringes the intellectual property, privacy, or other legal rights of any third party.
 - Impersonation of any person or organization, or misrepresentation of your affiliation with any person or organization.
 
-This list is illustrative, not exhaustive, and we may update it from time to time to address emerging risks, consistent with Section 20.
+This list is illustrative, not exhaustive, and we may update it from time to time to address emerging risks, consistent with Section 21.
 
 You acknowledge and agree that we reserve the right, but assume no obligation, to review Content (including Course material and newsletters) for compliance with this Content Policy, whether using personnel, automated systems, or both, at our discretion. Where performed, this review may take place before, during, or after delivery to Learners.
 
-If we determine, in our reasonable judgment, that Content violates this Content Policy or these Terms, we may, without liability to you: request that you edit or remove the Content; suspend delivery of the affected Content; suspend or terminate your account as set out in Section 15; and, where we believe Content may be unlawful, report it to the relevant authorities.
+If we determine, in our reasonable judgment, that Content violates this Content Policy or these Terms, we may, without liability to you: request that you edit or remove the Content; suspend delivery of the affected Content; suspend or terminate your account as set out in Section 16; and, where we believe Content may be unlawful, report it to the relevant authorities.
 
 ---
 
@@ -162,6 +163,8 @@ We may add or change subprocessors from time to time in order to operate and imp
 
 Third-party AI assistants or agents that you connect to your Content through our MCP service (see Section 12) are not subprocessors. They are services that you select and control, and we do not engage them on your behalf.
 
+Similarly, where you connect your own Stripe account to sell access to paid parts of your Courses (see Section 13), Stripe acts for you under your own agreement with Stripe, and not as our subprocessor.
+
 ---
 
 ## 12. AI-Assisted Features and AI Connections
@@ -186,11 +189,58 @@ AI-generated output is provided as a drafting aid only. It may be inaccurate, in
 
 ### 12.4 Usage limits and acceptable use
 
-AI-assisted features and MCP connections are subject to usage limits. These currently include a per-Organization daily cap on AI quiz generations, and, for MCP connections used during a free trial, separate per-Organization daily caps on read operations and on write operations (a Viewer or Instructor connection consumes only the read allowance). These limits are enforced, are not a billed or paid top-up allowance, and may change without notice. You must not attempt to bypass plan gating, per-Organization scoping, or usage limits, or use these features in an automated or excessive manner that places abusive load on the Platform. We may rate-limit, suspend, or terminate AI-assisted feature or MCP access for an Organization that does so, as set out in Section 15.
+AI-assisted features and MCP connections are subject to usage limits. These currently include a per-Organization daily cap on AI quiz generations, and, for MCP connections used during a free trial, separate per-Organization daily caps on read operations and on write operations (a Viewer or Instructor connection consumes only the read allowance). These limits are enforced, are not a billed or paid top-up allowance, and may change without notice. You must not attempt to bypass plan gating, per-Organization scoping, or usage limits, or use these features in an automated or excessive manner that places abusive load on the Platform. We may rate-limit, suspend, or terminate AI-assisted feature or MCP access for an Organization that does so, as set out in Section 16.
 
 ---
 
-## 13. Service Availability & Support
+## 13. Paid Courses Through Your Stripe Account
+
+### 13.1 Connecting your Stripe account
+
+You may connect your Organization's own Stripe account to the Platform so that Learners' payments unlock paid parts of your Courses. Only an Organization Admin can connect a Stripe account, which is done by installing the "Inbox Academy" Stripe App on it. Each Organization can have one Connected Stripe Account at a time: connecting again replaces the previous connection. You may disconnect at any time by uninstalling the app from your Stripe Dashboard.
+
+When installing the app, you approve the following permissions on your Stripe account:
+
+- Read Checkout Sessions, so that we can see completed payments.
+- Read Payment Links, so that we can check the Payment Links you choose.
+- Create and update Payment Links. This permission is requested in advance for a planned feature and is not currently used.
+- Read events, so that we can receive payment notifications.
+
+The app has no access to your charges, refunds, payouts, your customers' saved cards, or your bank details.
+
+The Stripe App may be offered to you while it is in Stripe's external testing stage, before it has been reviewed and published on the Stripe App Marketplace. During that stage, its availability, installation process, and features may change, including as a result of Stripe's review.
+
+### 13.2 You are the seller
+
+Payments for paid parts of your Courses are made by Learners to you, through your own Stripe Payment Links, and are paid directly into your Connected Stripe Account. We take no fee on these payments; your Subscription fees under Section 5 are unaffected. We are not the seller, and we are not a party to the sale between you and your Learners.
+
+You are solely responsible for your Connected Stripe Account and for the sales you make through it, including:
+
+- the prices you set, and how you describe the paid parts of your Courses to Learners;
+- any taxes due on your sales, and any invoices or receipts you are required to issue;
+- refunds, chargebacks, and disputes;
+- compliance with Stripe's terms and policies, and with the consumer protection and other laws that apply to your sales; and
+- providing Learners with any notice of your own terms of sale and privacy practices that applicable law requires.
+
+Your use of Stripe is governed by your own agreement with Stripe, and Stripe's terms and privacy policy apply to your Connected Stripe Account and to your Learners' payments. We are not responsible for Stripe's services, or for any act or omission of Stripe.
+
+### 13.3 How payments unlock Courses
+
+You choose a Stripe Payment Link for each paid step of a Course. The "Pay" button in the corresponding Course email carries the Learner's enrollment ID, and may also carry the Learner's email address, to Stripe so that the payment can be matched back to the Learner. When Stripe notifies us that a payment through that Payment Link has completed, we use the payment's reference ID and the email address it was made with to find the matching Learner in that Course, and automatically unlock the rest of that Learner's Course.
+
+Unlocking depends on Stripe delivering payment notifications to us, and on the payment being matched to a Learner. If a notification is delayed, the Course is unlocked only once it arrives. If a payment cannot be matched to a Learner in the Course (for example, because it was made through a Payment Link opened outside a Course email, with an email address that is not enrolled in the Course), nothing is unlocked, and the payment remains in your Connected Stripe Account. In either case, you may unlock the Learner's Course manually through the Platform, and you are responsible for resolving the matter with the Learner, including any refund.
+
+We shall use commercially reasonable efforts to process payment notifications promptly, but we do not guarantee that every payment will be matched or unlocked within any particular time. Delays or failures in unlocking caused by Stripe, by your Connected Stripe Account, or by your choice of Payment Links are failures of an external third-party integration for the purposes of Section 15.
+
+### 13.4 Data
+
+By connecting your Stripe account, you instruct us to read the payment data described in this Section from your Connected Stripe Account, and to pass Learners' enrollment IDs and, where included, email addresses to Stripe through the "Pay" button, for the purpose of unlocking Courses. For Learners' payment data, you decide what is sold and to whom, and we process that data on your behalf solely to unlock Course access.
+
+From each completed payment, we read its Stripe Checkout Session ID, its Payment Link, its payment status, its reference ID, and the email address it was made with, and we use the email address and reference ID only to find the matching Learner. We do not store this payment data, and we never receive card numbers or other payment method details. We store your Stripe account ID, whether the connection is a live or test connection, and when it was connected and disconnected (kept after disconnection, as a history of which Stripe account your Organization was paid through); the ID and URL of the Payment Link for each paid Course step; and, for each Learner, a record that a Course step was unlocked by payment and when. Further detail, including what our logs record, is set out in our [Privacy Policy](https://inboxacademy.io/privacy/).
+
+---
+
+## 14. Service Availability & Support
 
 InboxAcademy does not guarantee a specific uptime percentage. However, we shall use commercially reasonable efforts to maintain the availability of core Platform functionality (including email delivery) and to promptly investigate and resolve material technical disruptions, including those arising from underlying infrastructure or upstream service providers.
 
@@ -198,7 +248,7 @@ We shall make commercially reasonable efforts to provide advance notice of sched
 
 ---
 
-## 14. Service Credit & Refund Policy
+## 15. Service Credit & Refund Policy
 
 In the event the Platform experiences a continuous, uninterrupted outage of twenty-four (24) hours or more that completely prevents the delivery of core Course content, and such outage is directly caused by a technical failure within our control (including failures of infrastructure or upstream service providers, but explicitly excluding failures resulting from your mailbox, credentials, or external third-party integrations), you may request a service credit or, at our sole discretion, a pro-rated refund for the affected billing period.
 
@@ -208,7 +258,7 @@ This Section states your sole and exclusive remedy, and our entire liability, fo
 
 ---
 
-## 15. Suspension & Termination
+## 16. Suspension & Termination
 
 We may suspend or terminate your access to the Platform, in whole or in part, if you materially breach these Terms (including the Content Policy in Section 9), fail to pay applicable fees, or use the Platform in a way that we reasonably believe creates legal or security risk to us, our Learners, or other users. Where reasonably possible, we shall provide notice and an opportunity to resolve the issue before suspending or terminating your account for a first-time, non-severe violation.
 
@@ -218,7 +268,7 @@ You may cancel your Subscription at any time via the [Stripe customer portal](ht
 
 ---
 
-## 16. Disclaimers & Limitation of Liability
+## 17. Disclaimers & Limitation of Liability
 
 The Platform is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind, either express or implied, except as expressly set out in these Terms. We do not warrant that the Platform will be uninterrupted, error-free, or fully secure.
 
@@ -228,19 +278,19 @@ Nothing in these Terms limits liability that cannot be limited under applicable 
 
 ---
 
-## 17. Indemnification
+## 18. Indemnification
 
-You agree to indemnify and hold us harmless from any claims, damages, liabilities, and reasonable expenses (including legal fees) arising out of: your Content; your breach of these Terms, including the Content Policy or the Learner Data obligations in Section 8; or your violation of any applicable law in your use of the Platform.
+You agree to indemnify and hold us harmless from any claims, damages, liabilities, and reasonable expenses (including legal fees) arising out of: your Content; your sales to Learners through your Connected Stripe Account, including any refund, chargeback, dispute, or tax arising from them; your breach of these Terms, including the Content Policy or the Learner Data obligations in Section 8; or your violation of any applicable law in your use of the Platform.
 
 ---
 
-## 18. Governing Law
+## 19. Governing Law
 
 These Terms are governed by and construed in accordance with the substantive law of Dubai, United Arab Emirates.
 
 ---
 
-## 19. Dispute Resolution
+## 20. Dispute Resolution
 
 Any dispute arising out of or in connection with these Terms, including any question regarding their existence, validity, or termination, shall be referred to and finally resolved by arbitration under the Arbitration Rules of the Dubai International Arbitration Centre, which Rules are deemed to be incorporated by reference into this clause.
 
@@ -248,13 +298,13 @@ The number of arbitrators shall be one (1). The seat of arbitration shall be Dub
 
 ---
 
-## 20. Changes to These Terms
+## 21. Changes to These Terms
 
 We reserve the right to update these Terms at any time. Material changes shall be communicated via email to registered Course Providers where possible, with reasonable advance notice, and shall be reflected in a new version tag in our [public legal repository](https://github.com/avacodesolutions/public-contracts). The version history of this document is publicly accessible there. Continued use of the Platform after a change takes effect constitutes acceptance of the updated Terms.
 
 ---
 
-## 21. Contact Us
+## 22. Contact Us
 
 Email is currently our only support channel. If you have any questions, complaints, or issues about these Terms or the Platform, please contact us:
 
@@ -268,6 +318,7 @@ Email is currently our only support channel. If you have any questions, complain
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v2.8 (October 14, 2026) Added Section 13 (Paid Courses Through Your Stripe Account), and renumbered the Sections after it: Organizations may connect their own Stripe account through the "Inbox Academy" Stripe App, which may be offered in Stripe's external testing stage, so that Learners' payments unlock paid parts of Courses; disclosed the Stripe permissions the app requests and the data involved; set out that the Organization is the seller and is responsible for its Stripe account, prices, taxes, receipts, refunds, disputes, and compliance with Stripe's terms, and that we take no fee; described what happens when a payment notification is delayed or a payment cannot be matched; clarified that Stripe is not our subprocessor for these payments; and extended indemnification to these sales
 - v2.7 (October 7, 2026) Removed the statement of whether Organizations and Courses are public or private by default; you choose the visibility of each
 - v2.6 (September 2, 2026) Disclosed the ability for any Organization User to connect third-party AI assistants via our Model Context Protocol (MCP) service, acting within their role (read-only for Instructor and Viewer); expanded the AI-Assisted Features section to cover AI connections, input and output responsibilities, ownership of AI-generated output, per-Organization usage limits (including separate read and write caps on trial), and anti-circumvention and acceptable-use rules; clarified that connected AI clients are not subprocessors
 - v2.5 (September 15, 2026) Added right to remove, without prior notice, unpaid Organization accounts with no Content that have been inactive for sixty (60) or more consecutive days

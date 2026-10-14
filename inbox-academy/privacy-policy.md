@@ -1,6 +1,6 @@
 # InboxAcademy — Privacy Policy
 
-**Effective Date:** October 7, 2026
+**Effective Date:** October 14, 2026
 **Legal Entity:** AvaCode Solutions LLC-FZ
 **Registered in:** Meydan Free Zone, Dubai, UAE
 **Data Hosting:** Google Cloud Platform — EU Region
@@ -12,7 +12,7 @@
 
 ## 1. Who We Are
 
-InboxAcademy is operated by AvaCode Solutions LLC-FZ, registered in Meydan Free Zone, Dubai, UAE. We are the data controller for personal data collected through the Platform. For all privacy-related inquiries, contact us at legal@inboxacademy.io.
+InboxAcademy is operated by AvaCode Solutions LLC-FZ, registered in Meydan Free Zone, Dubai, UAE. We are the data controller for personal data collected through the Platform, except where this Policy states that we process data on a Course Provider's behalf (see Section 3.6). For all privacy-related inquiries, contact us at legal@inboxacademy.io.
 
 ---
 
@@ -37,6 +37,7 @@ When you register and use the Platform, we collect:
 - Optional organization profile information, such as logo, website address, LinkedIn page, and YouTube channel.
 - Profile photos for individual Organization Users, either added by you manually or, for the Admin user created when you register, sourced automatically from your Google or LinkedIn account if you register using social sign-in.
 - Billing information processed via Stripe (we do not store card details).
+- If an Organization Admin connects your Organization's own Stripe account to sell access to paid parts of Courses, details of that connection (see Section 3.6).
 - Course content, lesson materials, and quiz data you upload or create.
 - Usage data and activity logs within your account.
 - Interaction and device signals collected via Google reCAPTCHA Enterprise when you register, used to detect and prevent fraudulent or automated account creation.
@@ -61,6 +62,7 @@ Learners do not create accounts on InboxAcademy. We collect the following data e
 - Course progress, quiz response data, and submitted assignment data.
 - Email engagement data (delivery, open, and link interaction events).
 - Your name, if you choose to claim a certificate of completion. This is collected via a form link sent to you by email after you complete a course, and only if you claim a certificate.
+- If you pay a Course Provider to unlock paid parts of a course, a record that those parts were unlocked for you and when (see Section 3.6).
 
 Personalized content is delivered via secure, time-limited JWT token links. No password or account login is required for Learners.
 
@@ -93,6 +95,28 @@ When you authorize such a connection, we process:
 - Per-Organization, per-day counts of the number of tool calls made through the connection (numbers only, with no content).
 
 Access tokens expire within 10 minutes. Refresh tokens expire after 30 days and are revoked automatically when the authorizing user leaves the Organization, has their role changed, or has their account deactivated; the user may also disconnect the client at any time. Content that a connected client reads or drafts is processed by that third-party client and its AI provider under their own terms and privacy policy. You choose and control the client you connect, and you are responsible for its security and for the credentials and tokens it holds.
+
+### 3.6 Paid Courses Through a Course Provider's Stripe Account
+
+A Course Provider can sell access to paid parts of its Courses by connecting its own Stripe account to InboxAcademy. Only an Organization Admin can make this connection, which is done by installing the "Inbox Academy" Stripe App on the Organization's Stripe account. Connecting again replaces the previous connection, and the Course Provider can disconnect at any time by uninstalling the app from its Stripe Dashboard.
+
+**Learners pay the Course Provider, not us.** Payments are made through the Course Provider's own Stripe Payment Links, and the money goes directly to the Course Provider's Stripe account. We take no fee on these payments and are not the seller. The Course Provider, not InboxAcademy, is responsible for the sale, including refunds, disputes, taxes, and receipts, under its own agreement with Stripe. Stripe's own terms and [privacy policy](https://stripe.com/privacy) apply to the Course Provider's Stripe account and to the payments Learners make.
+
+**Stripe permissions.** When installing the app, the Course Provider approves the following permissions on its Stripe account: reading Checkout Sessions (to see completed payments), reading Payment Links (to check the links the Course Provider chooses), reading events (to receive payment notifications), and creating and updating Payment Links (requested in advance for a planned feature and not currently used). The app has no access to the Course Provider's charges, refunds, payouts, customers' saved cards, or bank details.
+
+**How payments unlock a course.** When a course email contains a "Pay" button, that button carries your enrollment ID, and may also carry your email address, to Stripe so that your payment can be matched back to your enrollment. When a payment for the course completes, Stripe notifies us, and we automatically unlock the rest of that course for you. If no Learner in the course matches a payment, nothing is unlocked, and the payment remains with the Course Provider.
+
+**Data we read from Stripe but do not store.** From each completed Stripe Checkout Session, we read its ID, the Payment Link it was made through, its payment status, a reference ID, and the email address the payment was made with. The email address and reference ID are used only to find the matching Learner in that course. We never receive card numbers or other payment method details.
+
+**Data we store.**
+
+- For each Organization: its Stripe account ID, whether the connection is a live or test connection, when it was connected, and when it was disconnected. These records are kept after disconnection, as a history of which Stripe account the Organization was paid through.
+- For each paid step of a Course: the ID and URL of the Stripe Payment Link that unlocks it.
+- For each Learner: a record that the course step was unlocked, when, and that it was unlocked by the payment integration. This is the same kind of record we keep for other unlocks.
+
+**Logs.** Our server logs record Stripe account IDs, Checkout Session IDs, and enrollment IDs when payments are processed or cannot be matched. Learner email addresses are not logged.
+
+**Roles.** For Learners' payment data, the Course Provider decides what is sold and to whom, and we process that data on the Course Provider's behalf, solely to unlock course access. Stripe is a third party that acts under its own terms and privacy policy.
 
 ---
 
@@ -144,6 +168,7 @@ We use the data we collect to:
 - Deliver course content and personalized learning experiences to Learners.
 - Deliver newsletter sendouts to Learners who have confirmed their newsletter subscription.
 - Generate and issue verifiable certificates of completion.
+- Unlock paid parts of a course when a Learner's payment to the Course Provider, through the Course Provider's connected Stripe account, completes (see Section 3.6).
 - Provide AI-assisted authoring features that generate or edit Course content at a Course Provider's request, including by sending the relevant Course, lesson, or quiz content to our AI sub-processor (currently OpenAI) for processing.
 - Enforce per-Organization usage limits on AI-assisted authoring features and MCP connections, using per-Organization, per-day counters that hold numbers only and no content.
 - Communicate with Course Providers regarding account updates, billing, and service changes.
@@ -176,7 +201,7 @@ Regardless of your location, InboxAcademy is committed to handling all personal 
 
 We do not sell your personal data. We share data with the following trusted third-party service providers solely to operate the Platform:
 
-- **Stripe:** For payment processing. Stripe's Privacy Policy applies to data processed by Stripe.
+- **Stripe:** For payment processing. Stripe's Privacy Policy applies to data processed by Stripe. Where a Course Provider connects its own Stripe account to sell access to paid parts of its Courses, Learners pay the Course Provider through Stripe directly, and Stripe processes those payments under its own terms and privacy policy, not on our behalf (see Section 3.6).
 - **Google Cloud Platform (GCP — EU Region):** For hosting, data storage, and infrastructure.
 - **Google Analytics:** For website usage analysis (anonymized where possible).
 - **Meta Platforms:** For advertising measurement via the Meta Pixel on our public website, where you have consented. Meta acts as an independent controller for this data and processes it under its own privacy policy, primarily outside the EEA (see Section 13).
@@ -198,7 +223,7 @@ If you subscribe to a Course Provider's newsletter, your email address is shared
 
 Neither InboxAcademy nor Course Providers may use Learner email addresses for any purpose unrelated to the delivery of the specific course the Learner is enrolled in, or the specific newsletter the Learner has subscribed to. This includes, but is not limited to, marketing communications unrelated to that course or newsletter, third-party data sharing, or any other unrelated use. Subscribing to one newsletter does not permit a Course Provider to use your email address for its other newsletters or courses. Course Providers are contractually bound to this restriction through their agreement with InboxAcademy.
 
-Learner email addresses will not be sold or shared with any third party, except where required by law or where disclosure is requested by a competent legal authority.
+Learner email addresses will not be sold or shared with any third party, except where required by law or where disclosure is requested by a competent legal authority, or, where a Course Provider sells access to paid parts of a course through its own Stripe account, where the "Pay" button in a course email passes your email address to Stripe so that your payment can be matched to your enrollment (see Section 3.6). Email addresses read from Stripe payments are used only to find the matching Learner in that course.
 
 ---
 
@@ -209,6 +234,7 @@ We retain personal data for as long as necessary to provide the Platform service
 - **Course Provider account data** is retained for the duration of the active Subscription and for up to 24 months following account closure.
 - **Learner data** (email address, progress, quiz responses, and assignment submissions) is retained for as long as the Course Provider's account is active or as otherwise instructed by the Course Provider. Learners may unsubscribe from a course at any time via the unsubscribe link provided in their lesson emails. Unsubscribing stops future lesson delivery but is not equivalent to a data deletion request — previously submitted data including quiz responses, assignment submissions, and course progress will remain accessible to the Course Provider through the Platform. To request full deletion of your data, please contact us at legal@inboxacademy.io.
 - **Newsletter subscriber data** (email address) is retained for as long as the Course Provider's account is active or as otherwise instructed by the Course Provider. Subscribers may unsubscribe from a newsletter at any time via the unsubscribe link provided in newsletter emails. Unsubscribing stops future newsletter sendouts but is not equivalent to a data deletion request, and is separate from unsubscribing from any course. To request full deletion of your data, please contact us at legal@inboxacademy.io.
+- **Stripe connection data** (Stripe account ID, live or test connection, and connection and disconnection dates) is retained after the Stripe account is disconnected, as a history of which Stripe account the Organization was paid through, for as long as Course Provider account data is retained. Payment Link IDs and URLs are retained while they are assigned to a paid course step. Records that a course step was unlocked by payment are retained as part of Learner data. Details of individual Stripe payments, including the email address a payment was made with, are not stored.
 - **Website analytics data** is retained in accordance with Google Analytics default retention settings (up to 14 months).
 - **Meta Pixel data** is retained by Meta under its own retention policies, over which we have no control. We do not store pixel data on our own systems.
 - **MCP connection data** is retained only as long as needed to operate the connection. Access tokens are not stored; those issued for interactive connections expire within 10 minutes, and those issued for AI quiz generation expire within 1 hour. Refresh tokens are stored in hashed form for up to 30 days, or until revoked on Organization-leave, role change, or account deactivation. Authorization codes are stored in hashed form, are single-use, and expire within approximately 60 seconds. Registered MCP client details and per-Organization daily usage counters (numbers only, no content) are retained for the life of the Organization's account.
@@ -256,7 +282,7 @@ Data collected by the Meta Pixel, where you have consented to it, is transferred
 
 Our MCP service, which supports AI connections for content authoring, is hosted in the European Union (Netherlands). Course, lesson, and quiz content processed by our AI sub-processor for AI-assisted authoring features is processed primarily in the United States, subject to the safeguards described above.
 
-Regardless of where you are located, your personal data, including billing data processed via Stripe, may be transferred to, processed in, and stored in countries other than your own, including the United States and other jurisdictions in which InboxAcademy or its service providers operate. By using the Platform, you acknowledge and agree to this transfer, processing, and storage of your personal data outside of your country of residence.
+Regardless of where you are located, your personal data, including billing data processed via Stripe and payments Learners make to Course Providers through Stripe, may be transferred to, processed in, and stored in countries other than your own, including the United States and other jurisdictions in which InboxAcademy or its service providers operate. By using the Platform, you acknowledge and agree to this transfer, processing, and storage of your personal data outside of your country of residence.
 
 ---
 
@@ -281,6 +307,7 @@ Email is currently our only support channel. For any questions, concerns, compla
 ## Changelog
 All versions are available in the [AvaCode Solutions public-contracts repository on GitHub](https://github.com/avacodesolutions/public-contracts).
 
+- v1.11 (October 14, 2026) Disclosed that Course Providers can connect their own Stripe account, through the "Inbox Academy" Stripe App, to sell access to paid parts of their Courses: that Learners pay the Course Provider directly and the Course Provider is the seller; the Stripe permissions the app requests; the data we read from Stripe, the data we store, and what our logs record; that the "Pay" button passes the Learner's enrollment ID, and may pass their email address, to Stripe; that we process Learners' payment data on the Course Provider's behalf; and the retention of this data
 - v1.10 (October 7, 2026) Removed the statement of whether Organizations and Courses are public or private by default; Course Providers choose the visibility of each
 - v1.9 (September 13, 2026) Extended the restriction on use of Learner email addresses to newsletter subscribers, whose email addresses may only be used for the specific newsletter they subscribed to; disclosed how newsletter subscriptions are collected and confirmed, that Course Providers can view and export their subscriber lists, and consent as the legal basis for newsletter subscriptions
 - v1.8 (September 9, 2026) Disclosed the two registration events the Meta Pixel records (verification email sent, and email verified), and corrected the statement that the pixel never runs for signed-in users: it also runs on the confirmation page shown immediately after email verification, which is reached already signed in
